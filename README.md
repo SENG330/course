@@ -5,8 +5,13 @@ Calendar Entry: Aspects of object-oriented analysis, design and development. Def
 
 (the official course syllabus is distributed via HEAT)
 
+
 Past versions:
 * 
+
+## Instructors
+* [Neil Ernst](http://neilernst.net), instructor. Room ECS560, office hours shortly after class Tuesday/Wednesday.
+* Omar alMazhry, teaching assistant
 
 ## Course Overview
 
@@ -16,25 +21,39 @@ After the course, students are able to:
 
 * 
 
+## Deliverables
+
+The class will use [Github](https://github.com/SENG330-17) and [Slack](https://seng330-f17.slack.com) to work on the project. Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github please contact the instructor for workarounds. All Github activity is privaate to the class organization.
+
+Slack will be used for communication in the class. University and department policies on professional conduct and integrity are applicable.
+
 ### Assignments
 
-Two assignments building towards the project
+Two assignments both worth 10% of final mark, building towards the project. Due dates as below.
 
 ### Project
-Students will organize in teams of 5-6 and take a software system from initial requirements to working prototype.
+35% of final mark.
+
+Students will be assigned to teams of 4-5 and take a software system from initial requirements to working prototype. Due dates in calendar below.
+
+### Midterm
+Oct 17, 15% of final grade.
+
+### Final
+A final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
 
 ##### Milestones
 
 Details on requirements for milestones will be released throughout the course.
 
-## Schedule and Topics - Fall 2016
+## Schedule and Topics - Fall 2017
 
 The following schedule is subject to change.
 
 | Class  | Topics                                                    | Resources | Assignments      |
 | ------ | --------------------------------------------------------- | --------- | ---------------- |
-| Sep 6  |                                                           |           |                  |
-| Sep 8  |                                                           |           |                  |
+| Sep 6  |       No class -   register for Slack and [Github](https://github.com/SENG330-17)                                                 |           |                  |
+| Sep 8  |        No class - check [Slack](https://seng330-f17.slack.com) for assigned readings                                                   |           |                  |
 | Sep 12 |                                                           |           |                  |
 | Sep 13 |                                                           |           |                  |
 | Sep 15 |                                                           |           |                  |
@@ -50,7 +69,7 @@ The following schedule is subject to change.
 | Oct 10 |                                                           |           |                  |
 | Oct 11 |                                                           |           |                  |
 | Oct 13 |                                                           |           | Assignment 2 due |
-| Oct 17 |                                                           |           |                  |
+| Oct 17 |                                                           |           |    Midterm              |
 | Oct 18 |                                                           |           |                  |
 | Oct 20 |                                                           |           |                  |
 | Oct 24 |                                                           |           |                  |
