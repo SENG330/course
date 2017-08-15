@@ -11,7 +11,7 @@ Past versions:
 
 ## Instructors
 * [Neil Ernst](http://neilernst.net), instructor. Room ECS560, office hours shortly after class Tuesday/Wednesday.
-* Omar alMazhry, teaching assistant
+* Omar Elazhary, teaching assistant
 
 ## Course Overview
 
