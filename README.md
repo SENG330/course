@@ -71,11 +71,11 @@ The following schedule is subject to change.
 | Nov 28 |                                                           |           | Project due      |
 | Nov 29 |                                                           |           |                  |
 | Dec 1  | Last day; possible delay for National Day of Remembrance  |           |                  |
-| ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | 
+| ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
 ### Resources
 
-[Slack](https://csc519-s17.slack.com/)
+[Slack](https://seng330-f17.slack.com)
 
 ##### Papers
 
