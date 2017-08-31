@@ -10,7 +10,7 @@ Past versions:
 * (none easily available from what I can tell, sorry)
 
 ## Instructors
-* [Neil Ernst](http://neilernst.net), instructor. Room ECS560, office hours shortly after class Tuesday/Wednesday.
+* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours shortly after class Tuesday/Wednesday, or by appt.
 * Omar Elazhary, teaching assistant
 
 ## Course Overview
@@ -35,11 +35,11 @@ Two assignments both worth 10% of final mark, building towards the project. Due 
 ### Project
 35% of final mark.
 
-Students will be assigned to teams of 4-5 and take a software system from initial requirements to working prototype. Due dates in calendar below.
+Students will be assigned to teams and take a software system from initial requirements to working prototype. Due dates in calendar below.
  
 ##### Project Milestones
 
-Details on specific project milestones will be released throughout the course. The project takes the form of a software application built from requirements, design, and implementation. 
+Details on specific project milestones will be released throughout the course. The project takes the form of a software application going through cycles of requirements, design, and implementation. 
 
 ### Midterm
 Oct 17, 15% of final grade.
@@ -51,25 +51,25 @@ A final exam worth 30% will be scheduled by the university in exam period. Do no
 
 The following schedule is subject to change.
 
-| Class  | Topics                                                    | Resources | Assignments      |
+| Class  | Topics          | Resources | Readings  (do this *before* this class)     |
 | ------ | --------------------------------------------------------- | --------- | ---------------- |
-| Sep 6  |       Register for Slack and [Github](https://github.com/SENG330-17)                                                 |           |                  |
-| Sep 8  |       Check [Slack](https://seng330-f17.slack.com) for assigned readings                                                   |           |                  |
-| Sep 12 |                                                           |           |                  |
-| Sep 13 |                                                           |           |                  |
-| Sep 15 |                                                           |           |                  |
-| Sep 19 |                                                           |           |                  |
-| Sep 20 |                                                           |           |                  |
-| Sep 22 |                                                           |           |                  |
-| Sep 26 |                                                           |           |                  |
-| Sep 27 |                                                           |           |                  |
-| Sep 29 |                                                           |           | Assignment 1 due |
-| Oct 3  |                                                           |           |                  |
-| Oct 4  |                                                           |           |                  |
-| Oct 6  |                                                           |           |                  |
-| Oct 10 |                                                           |           |                  |
-| Oct 11 |                                                           |           |                  |
-| Oct 13 |                                                           |           | Assignment 2 due |
+| Sep 6  |       **No class**.            |            |    Register for [Slack](https://join.slack.com/t/seng330-f17/shared_invite/MjM1MDU0NzY1MTEwLTE1MDQxMzIxNjktNDlhOGFmODEyNQ)    • Do Slack polls on Git/Github    |
+| Sep 8  |[Introduction/Overview](https://github.com/SENG330-17/course/blob/master/lectures/1-intro.md) |     [Github help pages](https://help.github.com) • [Github bootcamp](https://help.github.com/articles/set-up-git/)      |      Follow [Assignment 0 invite](https://classroom.github.com/a/CiIZII07)  & Send GH username to Omar        |
+| Sep 12 |           Software process/lifecycles |           |       [Agile Lifecycles](http://www.ambysoft.com/essays/agileLifecycle.html)           |
+| Sep 13 |            Software process/lifecycles |           |                  |
+| Sep 15 |            Software Teams |           |                  |
+| Sep 19 |                 Software Analysis intro  & Elicitation |           |                  |
+| Sep 20 |                         Quality attributes & User stories |    <!-- ADD article -->      |                  |
+| Sep 22 |            Design Paradigms      • Startup Slam presentation                                         |           |                  |
+| Sep 26 |           Functional and prototype design                                                |     <!-- Fairbanks -->      |                  |
+| Sep 27 |                  Safety critical and other approaches                                      |           |                  |
+| Sep 29 |                OO principles                                           |           | Assignment 1 due |
+| Oct 3  |               OO principles 2                                            |           |                  |
+| Oct 4  |                  OO principles  3                                     |           |                  |
+| Oct 6  |                 OO measures and tools                                          |           |                  |
+| Oct 10 |                 OO measures and tools                                              |           |                  |
+| Oct 11 |                            Float, overflow if needed                               |           |                  |
+| Oct 13 |                     & Midterm review                                      |           | Assignment 2 due |
 | Oct 17 |                                                           |           |    Midterm              |
 | Oct 18 |                                                           |           |                  |
 | Oct 20 |                                                           |           |                  |
@@ -90,20 +90,19 @@ The following schedule is subject to change.
 | Nov 24 |                                                           |           |                  |
 | Nov 28 |                                                           |           | Project due      |
 | Nov 29 |                                                           |           |                  |
-| Dec 1  | Last day; possible delay for National Day of Remembrance  |           |                  |
+| Dec 1  | Last day; final exam review  |           |                  |
 | ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
 ### Resources
 
-[Slack](https://seng330-f17.slack.com)
+1. [Slack](https://seng330-f17.slack.com)
+2. [Github help pages](https://help.github.com)
+3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
 
 ##### Papers
 
-* 
 
 ##### Books
+* [HeadFirst Design Patterns](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666) -- (on course reserve)
 
-* [DevOps: A Software Architect's Perspective, SEI](http://www.amazon.com/DevOps-Software-Architects-Perspective-Engineering/dp/0134049845)
-
-##### Glossary of Tools
 

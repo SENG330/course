@@ -6,8 +6,8 @@
 ---
 
 # Course People
-Professor: Neil Ernst (*my humble apologies for being absent!*)
-![neil](./neil-portrait.png)
+![neil](./neil-portrait.png) Professor: Neil Ernst 
+(*my humble apologies for being absent!*)
 * nernst@uvic.ca and http://neilernst.net 
 * ECS 560
 * Office hours after class T/W or by appointment
@@ -46,17 +46,28 @@ You must pass final and midterm to pass the class.
 
 ---
 # Course Setup
+
 * All class notes are/will be on Github - https://github.com/SENG330-17/course 
 * Slack will be the tool for managing communications. It is free, widely used in industry, and pretty decent. (But see the privacy statement on Connex).
 * There are two polls on our Slack #announcement channel about Git and Github knowledge. Please complete those so we know what to expect.
 * Assignments and project work are managed by Github Classroom. Essentially, you follow a link and Github creates an assignment/project repository for your Github username.
+
+---
+# Course Setup (2)
 * VITAL!! Omar or Neil need to know your Github id to link it to your Uvic info (V-number or email). Please DM us in Slack with that.
+
+
+Lectures will be about a reading I assign; you must do the reading **before** the class for the lecture to make sense. Readings are on the wiki page. Readings can be academic papers, websites, blog posts, and podcasts and videos, among other things.
+
 ---
 
 # Project
-The project is going to be 40% marked on quality of the eventual product. This is a SENG course, so naturally there is programming; it is *not* a capstone project course, so the programming should be secondary. Budget your time accordingly!
+The project is going to be 35%, and marked on quality of the eventual product. 
 
-Lectures will be about a reading I assign; you must do the reading **before** the class for it to make sense. Readings are on the wiki page. Readings can be academic papers, websites, blog posts, and podcasts and videos, among other things.
+This is a SENG course, so naturally there is programming; it is *not* a capstone project course, so the programming should be secondary. Budget your time accordingly!
+
+More info about the project will be posted soon.
+
 
 ---
 
