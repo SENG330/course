@@ -56,13 +56,15 @@ You must pass final and midterm to pass the class.
 # Course Setup (2)
 * VITAL!! Omar or Neil need to know your Github id to link it to your Uvic info (V-number or email). Please DM us in Slack with that.
 
-
 Lectures will be about a reading I assign; you must do the reading **before** the class for the lecture to make sense. Readings are on the wiki page. Readings can be academic papers, websites, blog posts, and podcasts and videos, among other things.
 
 ---
 
 # Project
-The project is going to be 35%, and marked on quality of the eventual product. 
+The project is going to be 35%, and marked on:
+* understanding customer requirements.
+* quality of the design and related artifacts.
+* quality of the eventual product and its presentation.
 
 This is a SENG course, so naturally there is programming; it is *not* a capstone project course, so the programming should be secondary. Budget your time accordingly!
 
@@ -85,12 +87,32 @@ More info about the project will be posted soon.
 7. Verification and testing of OO systems
 8. Working in teams
 
-
 --- 
-# Intro: Software Lifecycles
+
+# Intro: OO Design
+* early programs (e.g., like those in 110, 265) are simple enough to understand in 1 or 2 files
+* as software grew in complexity, need to *abstract* both the **structure** of the implementation, and the **abstraction** of the problem
+* Object orientation is one way to handle both -- objects from the world (Customer) become objects in the code (Customer.java)
 
 ---
-# Short-term Tasks
+
+#Intro: OO Design (2)
+* model using concepts closer to reality (e.g. objects, data encapsulation)
+* OO program = collection of cooperating *objects*
+* modular program = collection of tasks to perform
+* functional program = collection of functions operating on data
+---
+
+#Intro: OO tools
+* OO is about writing OO *code* (for us, Java) using language constructs 
+	* inheritance, encapsulation, interface contracts, classes and instances, etc.
+* OO is also about designing your software with OO principles:
+	 * Design Patterns, Architectural Styles, Decomposition,  Specialization
+* the course/project will give you the skills to *implement* your OO *designs*
+* and know when an OO approach is appropriate and useful.
+---
+
+# Summary: Short-term Tasks
 * See the schedule on https://github.com/SENG330-17/course. Complete the readings/assignment there.
 * Add yourself to Slack (see the Connex page or go to https://seng330-f17.slack.com/)
 * Do Assignment 0 via the Github link. Note: create a new Github account or use an existing one. All work is private to the instructors and you/your team.
