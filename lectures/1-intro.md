@@ -47,8 +47,9 @@ You must pass final and midterm to pass the class.
 ---
 # Course Setup
 
-* All class notes are/will be on Github - https://github.com/SENG330-17/course 
-* Slack will be the tool for managing communications. It is free, widely used in industry, and pretty decent. (But see the privacy statement on Connex).
+* All class notes are/will be on the class Github schedule page - https://github.com/SENG330-17/course (navigate here)
+* Slack will be the tool for managing communications. It is free, widely used in industry, and pretty decent.
+  * (But see the privacy statement on Connex).
 * There are two polls on our Slack #announcement channel about Git and Github knowledge. Please complete those so we know what to expect.
 * Assignments and project work are managed by Github Classroom. Essentially, you follow a link and Github creates an assignment/project repository for your Github username.
 
@@ -93,5 +94,5 @@ More info about the project will be posted soon.
 # Short-term Tasks
 * See the schedule on https://github.com/SENG330-17/course. Complete the readings/assignment there.
 * Add yourself to Slack (see the Connex page or go to https://seng330-f17.slack.com/)
-* Do Assignment 0 via the Github link. Note: create a new Github account or use an existing one. All work is private to the instructors and you/your team.
+* Do Assignment 0 via the Github link (on the schedule). Note: create a new Github account or use an existing one. All work is private to the instructors and you/your team.
 ---
