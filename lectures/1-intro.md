@@ -96,14 +96,14 @@ More info about the project will be posted soon.
 
 ---
 
-#Intro: OO Design (2)
+# Intro: OO Design (2)
 * model using concepts closer to reality (e.g. objects, data encapsulation)
 * OO program = collection of cooperating *objects*
 * modular program = collection of tasks to perform
 * functional program = collection of functions operating on data
 ---
 
-#Intro: OO tools
+# Intro: OO tools
 * OO is about writing OO *code* (for us, Java) using language constructs 
 	* inheritance, encapsulation, interface contracts, classes and instances, etc.
 * OO is also about designing your software with OO principles:
