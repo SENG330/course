@@ -47,17 +47,20 @@ You must pass final and midterm to pass the class.
 ---
 # Course Setup
 
-* All class notes are/will be on the class Github schedule page - https://github.com/SENG330-17/course (navigate here)
+* All class notes are/will be on the class Github schedule page - https://github.com/SENG330-17/course (navigate here; schedule at bottom)
 * Slack will be the tool for managing communications. It is free, widely used in industry, and pretty decent.
   * (But see the privacy statement on Connex).
+  * Go to https://seng330-f17.slack.com/ to get started.
 * There are two polls on our Slack #announcement channel about Git and Github knowledge. Please complete those so we know what to expect.
 * Assignments and project work are managed by Github Classroom. Essentially, you follow a link and Github creates an assignment/project repository for your Github username.
 
 ---
 # Course Setup (2)
-* VITAL!! Omar or Neil need to know your Github id to link it to your Uvic info (V-number or email). Please DM us in Slack with that.
+* VITAL!! Omar needs to know your Github id to link it to your Uvic info (V-number or email). Please DM us in Slack with that.
 
-Lectures will be about a reading I assign; you must do the reading **before** the class for the lecture to make sense. Readings are on the wiki page. Readings can be academic papers, websites, blog posts, and podcasts and videos, among other things.
+Lectures will be about a reading I assign; you must do the reading **before** the class for the lecture to make sense. 
+
+Readings are on the [Github schedule](https://github.com/SENG330-17/course/). Readings may be academic papers, websites, blog posts, and podcasts and videos, among other things.
 
 ---
 
@@ -74,8 +77,10 @@ More info about the project will be posted soon.
 
 ---
 
-# Overview
-* We will begin with an overview of what software engineering is, before getting into the details of design and analysis using OO, including some design patterns and other abstractions.
+# Course Format
+We will begin with an overview of what software engineering is, before getting into the details of design and analysis using OO, including some design patterns and other abstractions.
+
+Lectures will start with a recap of the previous day, a discussion of the reading, and periodically time for group work.
 
 ---
 # Topics (not necessarily in order)
@@ -84,38 +89,46 @@ More info about the project will be posted soon.
 3. Classical and Object Oriented Design
 4. Design patterns and architectural styles
 5. Functional and OO metrics measuring design quality
-6. Cost Estimations for OO systems
 7. Verification and testing of OO systems
 8. Working in teams
 
 --- 
 
 # Intro: OO Design
-* early programs (e.g., like those in 110, 265) are simple enough to understand in 1 or 2 files
-* as software grew in complexity, need to *abstract* both the **structure** of the implementation, and the **abstraction** of the problem
-* Object orientation is one way to handle both -- objects from the world (Customer) become objects in the code (Customer.java)
+* early software (e.g., like that in CSC110, SENG265) are simple enough to understand and often only consist of 1 or 2 files
+* as software grew in complexity, need to *abstract* both the **structure** of the implementation, and the **model** of the problem
+	* Structure: so we can simplify the engineering problem
+	* Model: real-world dynamic and complex (e.g. Time Zones)
+* Object orientation is one way to handle both—nouns from the world (Customer) become objects in the code (Customer.java)
 
 ---
 
 # Intro: OO Design (2)
 * model using concepts closer to reality (e.g. objects, data encapsulation)
-* OO program = collection of cooperating *objects*
-* modular program = collection of tasks to perform
+* OO program = collection of 'message-passing' *objects*
+* modular/imperative program = collection of tasks to perform
 * functional program = collection of functions operating on data
 ---
 
-# Intro: OO tools
-* OO is about writing OO *code* (for us, Java) using language constructs 
-	* inheritance, encapsulation, interface contracts, classes and instances, etc.
-* OO is also about designing your software with OO principles:
-	 * Design Patterns, Architectural Styles, Decomposition,  Specialization
-* the course/project will give you the skills to *implement* your OO *designs*
-* and know when an OO approach is appropriate and useful.
+# Question
+Can we name some OO, functional, and imperative languages?
+
 ---
 
-# Summary: Short-term Tasks
+
+# Intro: OO tools
+* OO is about writing OO *code* using language constructs (for us, Java)
+	* inheritance, encapsulation, interface contracts, classes and instances, etc.
+* OO is also about designing your software with OO principles:
+	 * Design Patterns, Architectural Styles, Decomposition,  Specialization, SOLID
+* the course/project will give you the skills to *model* complex problems and *implement* OO *designs*
+	* and know when an OO approach is appropriate and useful.
+---
+
+# Summary & Short-term Tasks
 * See the schedule on https://github.com/SENG330-17/course. Complete the readings/assignment there.
 * Add yourself to Slack (see the Connex page or go to https://seng330-f17.slack.com/)
 * Do Assignment 0 via the Github link (on the schedule). Note: create a new Github account or use an existing one. All work is private to the instructors and you/your team.
+* Neil will meet you Tuesday.
 ---
 
