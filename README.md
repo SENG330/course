@@ -56,8 +56,8 @@ The following schedule is subject to change.
 | Sep 6  |       **No class**.            |            |    Register for [Slack](https://join.slack.com/t/seng330-f17/shared_invite/MjM1MDU0NzY1MTEwLTE1MDQxMzIxNjktNDlhOGFmODEyNQ)    • Do Slack polls on Git/Github    |
 | Sep 8  |[Introduction/Overview](https://github.com/SENG330-17/course/blob/master/lectures/1-intro.md) |     [Github help pages](https://help.github.com) • [Github bootcamp](https://help.github.com/articles/set-up-git/)      |      Follow [Assignment 0 invite](https://classroom.github.com/a/CiIZII07)  & Send GH username to Omar        |
 | Sep 12 |           Software process/lifecycles |           |       [Agile Lifecycles](http://www.ambysoft.com/essays/agileLifecycle.html)           |
-| Sep 13 |            Software process/lifecycles |           |                  |
-| Sep 15 |            Software Teams |           |                  |
+| Sep 13 |            Software process/lifecycles |           |          [the Agile Manifesto](http://agilemanifesto.org/) and   [background](http://agilemanifesto.org/history.html)      |
+| Sep 15 |            Software Teams  |           |                  |
 | Sep 19 |                 Software Analysis intro  & Elicitation |           |                  |
 | Sep 20 |                         Quality attributes & User stories |    <!-- ADD article -->      |                  |
 | Sep 22 |            Design Paradigms      • Startup Slam presentation                                         |           |                  |
