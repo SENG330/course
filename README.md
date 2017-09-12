@@ -1,6 +1,53 @@
 # Object Oriented Development: SENG 330
 -------------------------
 
+## Schedule and Topics - Fall 2017
+
+The following schedule is subject to change.
+
+| Class  | Topics          | Resources | Readings  (do this *before* this class)     |
+| ------ | --------------------------------------------------------- | --------- | ---------------- |
+| **WK 0** Sep 6  |       **No class**.            |            |    Register for [Slack](https://join.slack.com/t/seng330-f17/shared_invite/MjM1MDU0NzY1MTEwLTE1MDQxMzIxNjktNDlhOGFmODEyNQ)    • Do Slack polls on Git/Github    |
+| Sep 8  |[Introduction/Overview](https://github.com/SENG330-17/course/blob/master/lectures/1-intro.md) |     [Github help pages](https://help.github.com) • [Github bootcamp](https://help.github.com/articles/set-up-git/)      |      Follow [Assignment 0 invite](https://classroom.github.com/a/CiIZII07)  & Send GH username to Omar        |
+| **WK 1** Sep 12 |           Software process/lifecycles |           |       [Agile Lifecycles](http://www.ambysoft.com/essays/agileLifecycle.html)           |
+| Sep 13 |            Software process/lifecycles |           |          [the Agile Manifesto](http://agilemanifesto.org/) and   [background](http://agilemanifesto.org/history.html)      |
+| Sep 15 |            Software Teams  |           |       [Spotify culture video](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)           |
+| **WK 2** Sep 19 |                 Software Analysis intro  |  [DDD book by Eric Evans](https://www.amazon.ca/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) •   [DDD example](http://www.zankavtaskin.com/2013/09/applied-domain-driven-design-ddd-part-1.html) • [DDD intro DZone](https://dzone.com/refcardz/getting-started-domain-driven)      |        [Domain-driven design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly) (free book download)          |
+| Sep 20 |                         DDD approach  • Startup Slam presentation |         |       (complete reading DDD book)            |
+| Sep 22 |       Elicitation and requirements                                                  |           |                  |
+| **WK 3** Sep 26 |               Use case modeling     with UML                                       |         |                  |
+| Sep 27 |            Design modelling   with UML                           |           |                  |
+| Sep 29 |                           *Assignment work session*                    |           | Assignment 1 due in Github 12am |
+| **WK 4** Oct 3  |               OO principles 1                                            |           |                  |
+| Oct 4  |                  OO principles  2                                     |           |                  |
+| Oct 6  |                OO principles Part the Third                                        |           |                  |
+| **WK5** Oct 10 |             Design quality assessment                                               |           |                  |
+| Oct 11 |                          OO measures and tools                             |           |                  |
+| Oct 13 |                     Midterm review                                      |           | Assignment 2 due in Github 12am |
+| **WK 6** Oct 17 |                    Midterm, in classroom                                       |           |    Midterm              |
+| Oct 18 |                          Patterns and Styles intro                                 |           |                  |
+| Oct 20 |                *Project team work session and Standups*                                           |           |                  |
+| **WK 7** Oct 24 |                  Design Patterns 1             <!-- specific patterns, 3 -->                            |           |                  |
+| Oct 25 |                   Design Patterns 2                                        |           |                  |
+| Oct 27 |             Design Patterns 3                                              |           |                  |
+| **WK 8** Oct 31 |          Quality Attributes /  Designing for testability       <!-- walk thru tactics -->                                      |           |                  |
+| Nov 1  |                       Designing for security                                    |           |                  |
+| Nov 3  |               Designing for modularity and maintainability                                            |           |                  |
+| **WK9** Nov 7  |         Designing for CI and releasability        <!-- from Steph's paper -->                                          |           |           [Facebook CI article](https://code.facebook.com/posts/270314900139291/rapid-release-at-massive-scale)        |
+| Nov 8  |          Code reading                                                 |           |                  |
+| Nov 10 |                     *Project work standups and Q&A period*                                        |           |                  |
+| **WK 10** Nov 14 | Reading Break                                             |           |                  |
+| Nov 15 | Reading Break                                             |           |                  |
+| Nov 17 |         *Project work standups and Q&A period*                                                 |           |                  |
+| **WK 11** Nov 21 |        Design Paradigms /   Functional and prototype paradigms                                                    |     <!-- Fairbanks -->        |                  |
+| Nov 22 |               Safety critical and other design approaches                                                        |           |                  |
+| Nov 24 |                        Overflow/slack                                   |           |                  |
+| **WK 12 ** Nov 28 |         Project demos                                                 |           | Project demos due      |
+| Nov 29 |             Project demos                                              |           |                  |
+| Dec 1  | Top 3 project presentations; final exam review  |           |                  |
+| ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
+
+# Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
 
 (the official course syllabus is [distributed via HEAT](https://heat.csc.uvic.ca/coview/outline/2017/Fall/SENG/330?unp=t))
@@ -46,52 +93,6 @@ Oct 17, 15% of final grade.
 
 ### Final
 A final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
-
-## Schedule and Topics - Fall 2017
-
-The following schedule is subject to change.
-
-| Class  | Topics          | Resources | Readings  (do this *before* this class)     |
-| ------ | --------------------------------------------------------- | --------- | ---------------- |
-| Sep 6  |       **No class**.            |            |    Register for [Slack](https://join.slack.com/t/seng330-f17/shared_invite/MjM1MDU0NzY1MTEwLTE1MDQxMzIxNjktNDlhOGFmODEyNQ)    • Do Slack polls on Git/Github    |
-| Sep 8  |[Introduction/Overview](https://github.com/SENG330-17/course/blob/master/lectures/1-intro.md) |     [Github help pages](https://help.github.com) • [Github bootcamp](https://help.github.com/articles/set-up-git/)      |      Follow [Assignment 0 invite](https://classroom.github.com/a/CiIZII07)  & Send GH username to Omar        |
-| Sep 12 |           Software process/lifecycles |           |       [Agile Lifecycles](http://www.ambysoft.com/essays/agileLifecycle.html)           |
-| Sep 13 |            Software process/lifecycles |           |          [the Agile Manifesto](http://agilemanifesto.org/) and   [background](http://agilemanifesto.org/history.html)      |
-| Sep 15 |            Software Teams  |           |                  |
-| Sep 19 |                 Software Analysis intro  & Elicitation |           |                  |
-| Sep 20 |                         Quality attributes & User stories |    <!-- ADD article -->      |                  |
-| Sep 22 |            Design Paradigms      • Startup Slam presentation                                         |           |                  |
-| Sep 26 |           Functional and prototype design                                                |     <!-- Fairbanks -->      |                  |
-| Sep 27 |                  Safety critical and other approaches                                      |           |                  |
-| Sep 29 |                OO principles                                           |           | Assignment 1 due |
-| Oct 3  |               OO principles 2                                            |           |                  |
-| Oct 4  |                  OO principles  3                                     |           |                  |
-| Oct 6  |                 OO measures and tools                                          |           |                  |
-| Oct 10 |                 OO measures and tools                                              |           |                  |
-| Oct 11 |                            Float, overflow if needed                               |           |                  |
-| Oct 13 |                     & Midterm review                                      |           | Assignment 2 due |
-| Oct 17 |                                                           |           |    Midterm              |
-| Oct 18 |                                                           |           |                  |
-| Oct 20 |                                                           |           |                  |
-| Oct 24 |                                                           |           |                  |
-| Oct 25 |                                                           |           |                  |
-| Oct 27 |                                                           |           |                  |
-| Oct 31 |                                                           |           |                  |
-| Nov 1  |                                                           |           |                  |
-| Nov 3  |                                                           |           |                  |
-| Nov 7  |                                                           |           |                  |
-| Nov 8  |                                                           |           |                  |
-| Nov 10 |                                                           |           |                  |
-| Nov 14 | Reading Break                                             |           |                  |
-| Nov 15 | Reading Break                                             |           |                  |
-| Nov 17 |                                                           |           |                  |
-| Nov 21 |                                                           |           |                  |
-| Nov 22 |                                                           |           |                  |
-| Nov 24 |                                                           |           |                  |
-| Nov 28 |                                                           |           | Project due      |
-| Nov 29 |                                                           |           |                  |
-| Dec 1  | Last day; final exam review  |           |                  |
-| ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
 ### Resources
 
