@@ -132,3 +132,9 @@ Can we name some OO, functional, and imperative languages?
 * Neil will meet you Tuesday.
 ---
 
+# Today: Get The Tooling Straight
+* Class exercise: using Git and Github. 
+* Slack walkthrough
+* Get with a partner or someone with a laptop. Follow along. 
+* Advanced topic for those of you who claimed Github proficiency: merge conflict practice.
+
