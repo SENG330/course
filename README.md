@@ -23,13 +23,13 @@ The following schedule is subject to change.
 | Oct 6  |                OO principles Part the Third                                        |           |                  |
 | **WK5** Oct 10 |             Design quality assessment                                               |           |                  |
 | Oct 11 |                          OO measures and tools                             |           |                  |
-| Oct 13 |                     Midterm review                                      |           | Assignment 2 due in Github 12am |
-| **WK 6** Oct 17 |                    Midterm, in classroom                                       |           |    Midterm              |
-| Oct 18 |                          Patterns and Styles intro                                 |           |                  |
-| Oct 20 |                *Project team work session and Standups*                                           |           |                  |
-| **WK 7** Oct 24 |                  Design Patterns 1             <!-- specific patterns, 3 -->                            |           |                  |
-| Oct 25 |                   Design Patterns 2                                        |           |                  |
-| Oct 27 |             Design Patterns 3                                              |           |                  |
+| Oct 13 |                     Patterns and Styles intro                                    |           | Assignment 2 due in Github 12am |
+| **WK 6** Oct 17 |                 Design Patterns 1                |           |                 |
+| Oct 18 |                         Midterm Review                              |           |                  |
+| Oct 20 |                **Midterm, in class **                                         |           |                  |
+| **WK 7** Oct 24 |                      Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
+| Oct 25 |                   Design Patterns 3                                        |           |                  |
+| Oct 27 |                                *Project team work session and Standups*                        |           |                  |
 | **WK 8** Oct 31 |          Quality Attributes /  Designing for testability       <!-- walk thru tactics -->                                      |           |                  |
 | Nov 1  |                       Designing for security                                    |           |                  |
 | Nov 3  |               Designing for modularity and maintainability                                            |           |                  |
