@@ -56,7 +56,7 @@ Neil Ernst
 
 ---
 
-# Class Activity – Scenarios
+# Class Activity â€“ Scenarios
 Turn to your neighbor and discuss which process to use and why for each project.
 
 ## Project 1:
@@ -88,7 +88,7 @@ Product Backlog
 * prioritized list of requirements (or wishlist) that describes all desired functionality
 
 Product Backlog Item
-* specifies a customer-centric feature (User Story form) – effort estimated by team, business value estimated by Product Owner
+* specifies a customer-centric feature (User Story form) â€“ effort estimated by team, business value estimated by Product Owner
 
 Sprint Backlog
 * contains list of tasks that are negotiated by team and product owner from Product Owner for the sprint
@@ -97,6 +97,8 @@ Burndown Chart
 * Total remaining team task hours within one sprint
 
 --- 
+
+<!-- got to here 9/13 -->
 # "Disciplined" Agile
 
 * Scale agile for large organizations

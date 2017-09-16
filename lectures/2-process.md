@@ -128,10 +128,8 @@ E. Use of Java
 ## Software process
 
 *  Process descriptions may also include:
-	* Products, which are the outcomes of a process
-activity;
-	* Stakeholders: people who care (about the
-outcome)
+	* Products, which are the outcomes of a process activity;
+	* Stakeholders: people who care (about the outcome)
 	*  Managers
 	* Developers
 	* End Users/Customers
@@ -230,7 +228,7 @@ After Dan North: http://skillsmatter.com/custom/presentations/sellingbddtothebus
 *  Each phase can go through several iterations
 
 ---
-
+<!-- got to here 9/12/17 -->
 ## Phases and activities (from R.U.P.)
 ![](img/rup.png)
 
