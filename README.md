@@ -12,6 +12,7 @@ The following schedule is subject to change.
 | **WK 1** Sep 12 |     [Software process/lifecycles](https://github.com/SENG330-17/course/blob/master/lectures/2-process.md) 	      |     [Cynefin video](http://cognitive-edge.com/videos/cynefin-framework-introduction/)      |       [Agile Lifecycles](http://www.ambysoft.com/essays/agileLifecycle.html)           |
 | Sep 13 |           [Software process/lifecycles](https://github.com/SENG330-17/course/blob/master/lectures/3-agile.md)   |           |          [the Agile Manifesto](http://agilemanifesto.org/) and   [background](http://agilemanifesto.org/history.html)      |
 | Sep 15 |            [Software Teams](https://github.com/SENG330-17/course/blob/master/lectures/4-teams.md)  |    [Conway's Law](http://www.melconway.com/Home/Conways_Law.html) • [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)       |       [Spotify culture video](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)           |
+| Sep 18 | Git / Github Tutorial at 5pm, ECS 125 |  | Bring your laptop |
 | **WK 2** Sep 19 |                 Software Analysis intro  |  [DDD book by Eric Evans](https://www.amazon.ca/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) •   [DDD example](http://www.zankavtaskin.com/2013/09/applied-domain-driven-design-ddd-part-1.html) • [DDD intro DZone](https://dzone.com/refcardz/getting-started-domain-driven)      |        [Domain-driven design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly) (free book download)          |
 | Sep 20 |                         DDD approach  • Startup Slam presentation |         |       (complete reading DDD book)            |
 | Sep 22 |       Elicitation and requirements                                                  |           |                  |
@@ -26,7 +27,7 @@ The following schedule is subject to change.
 | Oct 13 |                     Patterns and Styles intro                                    |           | Assignment 2 due in Github 12am |
 | **WK 6** Oct 17 |                 Design Patterns 1                |           |                 |
 | Oct 18 |                         Midterm Review                              |           |                  |
-| Oct 20 |                **Midterm, in class **                                         |           |                  |
+| Oct 20 |                **Midterm, in class**                                         |           |   Midterm                |
 | **WK 7** Oct 24 |                      Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
 | Oct 25 |                   Design Patterns 3                                        |           |                  |
 | Oct 27 |                                *Project team work session and Standups*                        |           |                  |
