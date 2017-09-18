@@ -16,18 +16,18 @@ The following schedule is subject to change.
 | **WK 2** Sep 19 |                 Software Analysis intro  |  [DDD book by Eric Evans](https://www.amazon.ca/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) •   [DDD example](http://www.zankavtaskin.com/2013/09/applied-domain-driven-design-ddd-part-1.html) • [DDD intro DZone](https://dzone.com/refcardz/getting-started-domain-driven)      |        [Domain-driven design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly) (free book download)          |
 | Sep 20 |                         DDD approach  • Startup Slam presentation |         |       (complete reading DDD book)            |
 | Sep 22 |       Elicitation and requirements                                                  |           |                  |
-| **WK 3** Sep 26 |               Use case modeling     with UML                                       |         |                  |
-| Sep 27 |            Design modelling   with UML                           |           |                  |
-| Sep 29 |                           *Assignment work session*                    |           | Assignment 1 due in Github 12am |
-| **WK 4** Oct 3  |               OO principles 1                                            |           |                  |
+| **WK 3** Sep 26 |               Use case modeling     with UML                                       |         |    [Use Case Diagrams](http://agilemodeling.com/artifacts/useCaseDiagram.htm) •  [System Use Cases](http://agilemodeling.com/artifacts/systemUseCase.htm)             |
+| Sep 27 |            Design modelling   with UML                           |           |         [UML class diagrams](http://agilemodeling.com/artifacts/classDiagram.htm)  • [CRC diagrams](http://agilemodeling.com/artifacts/crcModel.htm)       |
+| Sep 29 |                           *Assignment work session*                    |           | Assignment 1 [(invite)](https://classroom.github.com/a/_x9irXQs) due in Github midnight |
+| **WK 4** Oct 3  |               OO principles 1                                            |    <!-- module, C&C, deployment views-->       |                  |
 | Oct 4  |                  OO principles  2                                     |           |                  |
 | Oct 6  |                OO principles Part the Third                                        |           |                  |
 | **WK5** Oct 10 |             Design quality assessment                                               |           |                  |
 | Oct 11 |                          OO measures and tools                             |           |                  |
-| Oct 13 |                     Patterns and Styles intro                                    |           | Assignment 2 due in Github 12am |
+| Oct 13 |                     Patterns and Styles intro                                    |           | Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github midnight |
 | **WK 6** Oct 17 |                 Design Patterns 1                |           |                 |
 | Oct 18 |                         Midterm Review                              |           |                  |
-| Oct 20 |                **Midterm, in class**                                         |           |   Midterm                |
+| Oct 20 |                **Midterm, in class**        (up to and incl. Oct 11)                                 |           |   Midterm                |
 | **WK 7** Oct 24 |                      Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
 | Oct 25 |                   Design Patterns 3                                        |           |                  |
 | Oct 27 |                                *Project team work session and Standups*                        |           |                  |
