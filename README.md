@@ -90,7 +90,7 @@ Students will be assigned to teams and take a software system from initial requi
 Details on specific project milestones will be released throughout the course. The project takes the form of a software application going through cycles of requirements, design, and implementation. 
 
 ### Midterm
-Oct 17, 15% of final grade.
+Oct ~~17~~20th, 15% of final grade.
 
 ### Final
 A final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
