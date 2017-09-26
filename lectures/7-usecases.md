@@ -40,7 +40,7 @@ In some cases, we *must* have formality in order to have guarantees about our sy
 # Use Case Diagrams
 A Use Case Diagram shows packaging and decomposition of use cases, but not their content. Each ellipse is a use case. Only top-level services should be shown, and not the internal behaviour. Actors can be other systems.  The system outline can be an actor in other diagrams. They are not enough by themselves. We must individually document use cases. 
 ![](img/usecasediagram.png)
-> It is very easy for use case modeling to become un-agile. To prevent this from happening you need to focus on creating artifacts that are just barely good enough, they don't need to be perfect.
+> It is very easy for use case modelling to become un-agile. To prevent this from happening you need to focus on creating artifacts that are just barely good enough, they don't need to be perfect.
 
 # Use Cases and DDD
 In DDD we try to encapsulate domain objects with the behaviour they exhibit. However if our behaviour is getting too complex, we have probably not broken the model down sufficiently, and this is an opportunity for gaining more understanding. This depends a lot on the context our system is in. For example, if we have a Car in our domain, it may be natural to say it should have a property like top speed, and be able to report fuel consumption. But if our domain is car **maintenance**, these are not very important, and instead we have a behaviour like "report diagnostics". But as we dig into that concept, we realize there are many different aspects of diagnosis: different parts of the car, different tools required, error codes, and so on. It now seems like diagnosis is its own use case, and likely its own Entity - DiagnosticElement.

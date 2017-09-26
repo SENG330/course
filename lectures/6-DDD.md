@@ -44,16 +44,41 @@ Object types will depend on what you care about.
 * Entity
 	* things with persistence (e.g. Customer)
 	* things with unique identifiers
-* Value
-	* transient and easy to create/discard (e.g. Points)
-	* low-cost for memory etc.
-	* for most cases, immutable (create another one)
-* Service
-	* 'verbs' which don't belong to any objects
-	* important behaviour
-	* stateless/functional (e.g. "retrieve X")
+	* not everything should be an entity
+
+*Aside: what is a "firm"?*
 
 ---
+# Value Object
+* transient and easy to create/discard (e.g. Points, ints)
+* low-cost for memory, enables optimizations
+* one instance with many references
+* for most cases, immutable (create another one)
+* often used as attributes of Entities
+
+*Aside: what is an "address"?*
+
+---
+
+# Service Objects
+* domain 'verbs' which don't belong to any objects
+* important behaviour often at the infrastructure layer
+* stateless/functional (e.g. "retrieve X")
+
+Transfer funds vs. save to Excel
+
+---
+# Object Relationships
+What do the lines mean?
+An association between two boxes in the model must be realized in the software.
+* But how you implement that is up to you and depends on different factors (object reference, database call, collection vs. single).
+* Our domain model should clarify 
+	* directionality
+	* cardinality
+    
+---
+
+
 # OO in different flavours 
 ![](img/rect-java.png) ![](img/rect-py.png) ![](img/rect-clos.png) 
 ---
