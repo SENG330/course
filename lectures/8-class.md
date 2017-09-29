@@ -52,3 +52,32 @@ Used for inheritance and interface implementation
 ![](img/association.png)
 Bi-directional - both classes are aware of each other. Assoc. role usually maps to a field name. We show cardinality using integers, *, and ... (for range)
 * An aggregation relationship is a special instance of association where we model the 'contains' relation. E.g.  Car has 4 Wheels.
+
+---
+## Class-Responsibility-Collaborator approach
+"CRC"
+* Class/Candidate  - the thing, with a good name
+* Responsibility - an obligation to perform a task or know information
+* Collaborator - who is it working with or depending on?
+
+---
+## Format
+Name
+--
+Responsibilities      |   Collaborators
+
+---
+---
+# Entity Lifecycle
+![](img/wb-entity.png)
+
+---
+# Designing OO Tips
+- don't over-specify or commit prematurely
+- ignore library functions (e.g. GUI buttons)
+- stay at the same conceptual level (don't get into the weeds)
+- think about the overall approach
+	- distributed?
+	- centralized?
+	- common patterns (n-tier, MVC, etc)
+
