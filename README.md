@@ -19,13 +19,13 @@ The following schedule is subject to change.
 | **WK 3** Sep 26 |               [Use case modeling     with UML](https://github.com/SENG330-17/course/blob/master/lectures/7-usecases.md)                                       |         |    [Use Case Diagrams](http://agilemodeling.com/artifacts/useCaseDiagram.htm) •  [System Use Cases](http://agilemodeling.com/artifacts/systemUseCase.htm)             |
 | Sep 27 |            [Design modelling   with UML ](https://github.com/SENG330-17/course/blob/master/lectures/8-class.md)                         |           |         [UML class diagrams](http://agilemodeling.com/artifacts/classDiagram.htm)  • [CRC diagrams](http://agilemodeling.com/artifacts/crcModel.htm)       |
 | Sep 29 |                           *Assignment work session*                    |           | Assignment 1 [(invite)](https://classroom.github.com/a/_x9irXQs) due in Github midnight |
-| **WK 4** Oct 3  |               OO principles 1                                            |    [SOLID principles simplified](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)       |      [Martin on SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) (including PDFs of first 5 principles)          |
-| Oct 4  |                  OO principles  2                                     |           |     (continue SOLID reading)             |
-| Oct 6  |                OO principles Part the Third                                        |     [Fowler, DI](https://martinfowler.com/articles/injection.html)      |         (continue SOLID reading)            |
+| **WK 4** Oct 3  |               [OO principles 1](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                          |    [SOLID principles simplified](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)       |      [Martin on SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) (including PDFs of first 5 principles)          |
+| Oct 4  |                  [OO principles  2](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                     |      [interesting codebases](https://medium.com/@markpapadakis/interesting-codebases-159fec5a8cc)     |     (continue SOLID reading)             |
+| Oct 6  |                [OO principles Part the Third](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                        |     [Fowler, DI](https://martinfowler.com/articles/injection.html)      |         (continue SOLID reading)            |
 | **WK5** Oct 10 |             Design quality assessment                                               |           |                  |
 | Oct 11 |                          OO measures and tools                             |           |                  |
-| Oct 13 |                     Patterns and Styles intro                                    |     <!-- module, C&C, deployment views-->        | Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github midnight |
-| **WK 6** Oct 17 |                 Design Patterns 1                |           |                 |
+| Oct 13 |                     Patterns and Styles intro                                    |     <!-- module, C&C, deployment views-->        | |
+| **WK 6** Oct 17 |                 Design Patterns 1                |           |      Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 |                         Midterm Review                              |           |                  |
 | Oct 20 |                **Midterm, in class**        (up to and incl. Oct 11)                                 |           |   Midterm                |
 | **WK 7** Oct 24 |                      Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
@@ -46,7 +46,7 @@ The following schedule is subject to change.
 | **WK 12** Nov 28 |         Project demos                                                 |           | Project demos due      |
 | Nov 29 |             Project demos                                              |           |                  |
 | Dec 1  | Top 3 project presentations; final exam review  |           |                  |
-| ?? 	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
+| Dec 6 2pm (tent.)	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
 # Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
@@ -90,7 +90,7 @@ Students will be assigned to teams and take a software system from initial requi
 Details on specific project milestones will be released throughout the course. The project takes the form of a software application going through cycles of requirements, design, and implementation. 
 
 ### Midterm
-Oct ~~17~~20th, 15% of final grade.
+Oct ~~17~~ 20th, 15% of final grade.
 
 ### Final
 A final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
