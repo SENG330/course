@@ -1,0 +1,72 @@
+@startuml
+skinparam class {
+	BackgroundColor<<Service>> LightGreen
+	BorderColor<<Service>> Tomato
+	BackgroundColor<<Entity>> Wheat
+	BorderColor<<Entity>> Tomato
+}
+skinparam stereotypeCBackgroundColor YellowGreen
+skinparam stereotypeCBackgroundColor<< Foo >> DimGray
+
+' Entities
+class Borrower <<Entity>> {
+  + name
+  + apply()
+  '+ creditCheck()
+  '+ store()
+  + trackHistory()
+  '+ displayReport()
+}
+class OperatingAccount <<Entity>> {
+}
+class CapitalAccount <<Entity>>{
+} 
+
+class AccountMgr <<Entity>>{
+}
+class Mortgage <<Entity>>{
+  'Principal
+  'Term
+}
+abstract class Account <<Entity>>{
+  'AccountNumber
+  'isDelinquent
+}
+
+class RealEstate <<Entity>> { 
+}
+class Investment <<Entity>>{
+}
+
+abstract  class Asset <<Entity>> {
+  int acctNumber
+  Statement stmt
+  Currency currentValue()
+}
+
+class Transaction <<Entity>> {
+  Amount
+}
+
+' Values
+class Report <<Value>> {
+}
+
+' Services
+class CalculateInterest <<Service>> {
+}
+class SendInvoice <<Service>> {
+}
+class CreditCheck <<Service>> {
+}
+class Display <<Service>> {
+}
+class DataStore <<Service>> {
+}
+' relations
+Account <|-- OperatingAccount
+Account <|-- CapitalAccount
+Asset <|-- Investment
+Asset <|-- Mortgage
+Asset <|-- RealEstate
+@enduml
