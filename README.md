@@ -23,7 +23,7 @@ The following schedule is subject to change.
 | Oct 4  |                  [OO principles  2](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                     |      [interesting codebases](https://medium.com/@markpapadakis/interesting-codebases-159fec5a8cc)     |     (continue SOLID reading)             |
 | Oct 6  |                [OO principles Part the Third](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                        |   [PlantUML example code](https://github.com/SENG330-17/course/blob/master/lectures/MSG.puml)  [Fowler, DI](https://martinfowler.com/articles/injection.html)      |         (continue SOLID reading)            |
 | **WK5** Oct 10 |             Design quality assessment                                               |           |                  |
-| Oct 11 |                          OO measures and tools                             |           |                  |
+| Oct 11 |                          OO measures and tools                             |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3       |                  |
 | Oct 13 |                     Patterns and Styles intro                                    |     <!-- module, C&C, deployment views-->        | |
 | **WK 6** Oct 17 |                 Design Patterns 1                |           |      Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 |                         Midterm Review                              |           |                  |
