@@ -1,9 +1,9 @@
 @startuml
 skinparam class {
-	BackgroundColor<<Service>> LightGreen
-	BorderColor<<Service>> Tomato
-	BackgroundColor<<Entity>> Wheat
-	BorderColor<<Entity>> Tomato
+  BackgroundColor<<Service>> LightGreen
+  BorderColor<<Service>> Tomato
+  BackgroundColor<<Entity>> Wheat
+  BorderColor<<Entity>> Tomato
 }
 skinparam stereotypeCBackgroundColor YellowGreen
 skinparam stereotypeCBackgroundColor<< Foo >> DimGray
@@ -48,9 +48,36 @@ class Transaction <<Entity>> {
   Amount
 }
 
-' Values
-class Report <<Value>> {
+' examples of DI
+class CSVReport {
 }
+class XLSReport {
+}
+class PDFReport {
+}
+
+Report <|.. CSVReport
+Report <|.. XLSReport
+Report <|.. PDFReport
+
+' Values
+abstract class Report <<Value>> {
++ create(List<Transaction>): boolean
+}
+
+' examples of ISP
+class UI <<Interface>> {
+}
+
+class AccountUI <<Service>> {
+}
+
+class CustomerUI <<Service>> {
+}
+UI <|.. CustomerUI
+UI <|.. AccountUI
+UI <|.. Report
+
 
 ' Services
 class CalculateInterest <<Service>> {
@@ -61,12 +88,15 @@ class CreditCheck <<Service>> {
 }
 class Display <<Service>> {
 }
+
 class DataStore <<Service>> {
 }
+
 ' relations
 Account <|-- OperatingAccount
 Account <|-- CapitalAccount
 Asset <|-- Investment
 Asset <|-- Mortgage
 Asset <|-- RealEstate
+Report -- Display
 @enduml

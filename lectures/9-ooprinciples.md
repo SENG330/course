@@ -255,8 +255,10 @@ StaffMember -- (Produce Report)
 	3. Liskov Substitution
 	4. Interface Segregation
 	5. Dependency Inversion/Inversion of Control
-5. Dynamic Dispatch
-6. Refactoring
+
+<!--5. Dynamic Dispatch-->
+
+4. Refactoring
  
  ---
 
@@ -305,14 +307,64 @@ Ask: if a new object of type X is needed, where do you make changes?
 "Functions that use Base Classes must be able to use Derived Classes without being aware of it"
 * a change to a derived class (subtype) shouldn't affect the program using the base class (OCP)
 > The validity of a model can only be expressed in terms of its clients (tests).
+<!-- OperatingAccount should be acceptable anywhere Account is used -->
+
 ---
 # Interface Segregation
 "Clients should not depend on interfaces they don't use"
-* create coupling between objects through implicit dependencies on a common interface (rich interface)
+* do not create coupling between objects through *implicit dependencies* on a common interface (rich interface)
+<!-- A single UI interface may not make sense if the services are very distinct (e.g. different users) -->
+
 ---
-# Dependency Inversion/Inversion of Control
+# Dependency Injection/Inversion of Control
+> A. High Level Modules Should Not Depend Upon Low Level Modules. Both Should Depend Upon Abstractions.
+> 
+> B. Abstractions Should Not Depend Upon Details. Details Should Depend Upon Abstractions."
+
+Separate configuration from use, especially in the use of 3rd party libraries.
+<!-- couple dynamically, depend on interfaces/supertypes-->
+<!-- report creation (the abstraction) should not depend on the details (PDF etc) -->
+
 ---
-# Dynamic Dispatch
+# DI Frameworks
+Frameworks like [Guice](https://github.com/google/guice/wiki/Motivation), [Spring](https://www.mkyong.com/spring/spring-dependency-injection-di/) allow for "injection" of the dependencies 
+* e.g., at runtime, allow new instances of Report
+* especially useful for testing (code no longer cares if it gets a mock or the real object)
+<code style="font-size:14pt"> 
+public class RealBillingService implements BillingService {
+ &nbsp; public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
+    &nbsp;&nbsp;CreditCardProcessor processor = new PaypalCreditCardProcessor();
+    &nbsp;&nbsp;TransactionLog transactionLog = new DatabaseTransactionLog();
+ </code>
+ 
 ---
+## DI - 2
+<code style="font-size:14pt">
+
+public class BillingModule extends AbstractModule {
+&nbsp;@Override 
+&nbsp;protected void configure() {
+&nbsp;&nbsp;bind(CreditCardProcessor.class).to(PaypalCreditCardProcessor.class);
+&nbsp;&nbsp; // more bindings
+}
+...
+public class RealBillingService implements BillingService {
+&nbsp;&nbsp;@Inject
+&nbsp;&nbsp;public RealBillingService(CreditCardProcessor processor, TransactionLog transactionLog) {
+&nbsp;&nbsp; this.processor = processor;
+&nbsp;&nbsp;this.transactionLog = transactionLog;
+  }
+</code>
+
+---
+ 
+<!-- # Dynamic Dispatch -->
+ 
 # Refactoring
 refactor if there is a symptom, not just for the sake of it. (somewhat violated in learning refactoring!)
+<!-- Movie example -->
+
+---
+# Exercise
+Critique and refactor/redesign the code.
+> A program to calculate and print a statement of a customer's charges at a video store. The program is told which movies a customer rented and for how long. It then calculates the charges, which depend on how long the movie is rented, and identifies the type movie. There are three kinds of movies: regular, children's, and new releases. In addition to calculating charges, the statement also computes frequent renter points, which vary depending on whether the film is a new release.
