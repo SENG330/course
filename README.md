@@ -23,8 +23,8 @@ The following schedule is subject to change.
 | Oct 4  | [OO principles  2](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                     |      [interesting codebases](https://medium.com/@markpapadakis/interesting-codebases-159fec5a8cc)     |     (continue SOLID reading)             |
 | Oct 6  | [OO principles Part the Third](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                        |   [PlantUML example code](https://github.com/SENG330-17/course/blob/master/lectures/MSG.puml)  [Fowler, DI](https://martinfowler.com/articles/injection.html)      |         (continue SOLID reading)            |
 | **WK5** Oct 10 |             Design quality assessment  |   [C&K metrics definitions](http://people.scs.carleton.ca/~jeanpier/404F13/T2%20-%20About%20Metrics/extra%20stuff/Chidamber%20&%20Kemerer%20object-oriented%20metrics%20suite.pdf)      |                  |
-| Oct 11 |    OO measures and tools |     |        |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3             |
-| Oct 13 |   Patterns and Styles intro                                    |     <!-- module, C&C, deployment views-->        | |
+| Oct 11 |    OO measures and tools |      |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3 |
+| Oct 13 |   Patterns and Styles intro |     <!-- module, C&C, deployment views-->        |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) |
 | **WK 6** Oct 17 |  Design Patterns 1                |           |      Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 | Midterm Review                              |           |                  |
 | Oct 20 |    **Midterm, in class**        (up to and incl. Oct 11)                                 |           |   Midterm                |
@@ -33,7 +33,7 @@ The following schedule is subject to change.
 | Oct 27 |   *Project team work session and Standups*                        |           |                  |
 | **WK 8** Oct 31 |  Quality Attributes /  Designing for testability       <!-- walk thru tactics -->                                      |           |                  |
 | Nov 1  |  Designing for security                                    |           |                  |
-| Nov 3  | Designing for modularity and maintainability                                            |           |                  |
+| Nov 3  | Designing for modularity and maintainability |           |      [Modifiability tactics](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=8299)            |
 | **WK9** Nov 7  | Designing for CI and releasability        <!-- from Steph's paper -->                                          |           |           [Facebook CI article](https://code.facebook.com/posts/270314900139291/rapid-release-at-massive-scale)        |
 | Nov 8  | Code reading                                                 |           |                  |
 | Nov 10 |                     *Project work standups and Q&A period*                                        |           |                  |
