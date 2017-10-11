@@ -129,6 +129,7 @@ subjective but ...
 * gradations exist of 'fit for purpose'
 * remember, we are designing to achieve business goals!
 ![](img/good-oo.gif) 
+
 [Cohesion/Coupling graphics](http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/)
 ---
 # Design Quality 
