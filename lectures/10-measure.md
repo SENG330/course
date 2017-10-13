@@ -1,115 +1,3 @@
-## Code Refactoring Recap
-I deliberately gave you "code" rather than "design" (chances are you will see code first, or the design won't match the implementation)
-
-* Many of you started fixing the code (e.g. magic numbers)
-
-But this is about Design.
-
----
-### Approaches
-1. Draw a simple 'model'. Most of us cannot think abstractly without cognitive aids. Maybe UML, maybe CRC cards, maybe state machines...
-2. Think high level. Remember implementation details don't matter (yet!)
-3. Think static, dynamic, behavioral views (class, component, sequence/statechart)
-3. Consider maintenance scenarios. If X changes, what else happens?
-4. Look at cohesion: what responsiblities does this class have?
-5. QA focus: what important qualities do we need to consider?
-	* performance? scalability? (common interview qs!)
-
----
-
-### Model
-* what are the three classes?
-* how do they connect to each other?
-* how *should* they connect to each other?
-	* aside: what is a global variable in OO?
-	* aside: can we 'extend' non-abstract classes?
-
----
-
-# Take 1
-![](img/movie-take1.png)
-
----
-
-## Observations
-* the program works!
-* what if we want to print a statement in HTML?
-	* rewrite entire statement method!
-	* clone and change, not too hard
-* what if we now change the calculations?
-
-Step 1: write good tests. Make sure we know it works.
-Step 2: what violates our aesthetic? (can also use metrics!)
-Step 3: make small changes and re-test (important tests are fast!)
-Step 4: does each method "belong"/change with with that object? 
-<!-- amounts are really about 'rentals' -->
-<!-- movie gets Price subclasses-->
-Step 5: is it worth it/ are we going to need it?
-
-___
-![](img/movie-take2.png)
-(src: Refactoring, Kent Beck)
-
----
-# Assignment 2
-* Scope scope scope
-
-Runtime Structures
-* depict **components** and **connectors**
-	* components: principal units of runtime interaction and data stores
-	* connectors: interaction mechanisms
-* Construction: for showing the structure the software system must have at runtime
-* Education: as a starting point for the architect to show how the system works
-* Analysis: for reasoning about runtime system quality attributes such as performance, security, and reliability
-
---- 
-## Analyse:
-* What are the major executing components and how do they interact?
-* What are the major shared-data stores?
-* Which parts of the system are replicated?
-* How does data progress through the system?
-* Which parts of the system can run in parallel?
-* How can the system’s structure change as it executes?
----
-
-# Example runtime structure diagrams
-* Pipe and filter
-* Client Server
-* Service Orientation
-* Pub-sub
-* MVC
-
-___
-# Pipe and Filter
-![](img/pipe-filter.png)
-
----
-# Client server
-![](img/client-server.png)
-
-___
-# Services (microservices)
-![](img/vehicle-service.png)
-
-___
-# Sequences
-![](img/movie-seq.png)
-
----
-# Frameworks
-Very rare in web apps to write everything on your own.
-* previous apps you must integrate
-* smarter programmers have already created a reusable framework
-
-For this class, consider 
-* [Google Web Toolkit](http://www.gwtproject.org/doc/latest/tutorial/index.html), or 	
-* [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-
----
-![](img/spring-mvc.jpg)
-source: http://ganeshgope.blogspot.ca/2015/07/spring-mvc-flow-diagram.html
-
----
 # SENG330 -  OO Design
 ## Lecture 10 - Design Quality Assessment and Metrics
 
@@ -131,6 +19,7 @@ subjective but ...
 ![](img/good-oo.gif) 
 
 [Cohesion/Coupling graphics](http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/)
+
 ---
 # Design Quality 
 > 1. It is hard to change because every change affects too many other parts of the system. (Rigidity)
@@ -143,6 +32,25 @@ subjective but ...
 The Pyramid of Quality Software (according to SQALE)
 ![](img/SQALE-Pyramid-Pay-back-strategies.png)
 (source: http://www.sqale.org/blog/the-sqale-pyramid-a-powerful-indicator)
+
+---
+## SIG/BetterCodeHub guidelines
+<font size="5pt">Unit guidelines
+* Write short units of code 
+* Write simple units of code 
+* Write code once
+* Keep unit interfaces small
+
+Architectural guidelines
+* Separate concerns in modules
+* Couple architecture components loosely 
+* Keep architecture components balanced 
+* Keep your codebase small
+
+Enabling guidelines
+* Automate tests 
+* Write clean code
+</font>
 
 ---
 # Technical Debt
@@ -170,25 +78,68 @@ E.g. "The purpose of this study is to *characterize* the effect of *pair program
 
 ---
 # Measuring Cohesion
+Assess how similar methods are to one another.
+Empirically challenging. 
+LCOM (lack of cohesion in methods) measures disjoint sets of instance variables.
+Is cohesion of data and methods important?
 
 ---
 
 # Measuring Coupling
+Dependencies - what to measure?
+CBO - coupling between objects
+Fan-in and Fan-out
+
+![](img/dsm.png)
+
+---
 
 # Measuring Complexity
-* McCabe
-* Halstead
+Overarching idea: bigger things are harder to understand.
+* Amount of "stuff"
+ * Num of methods
+ * Num of Lines of Code (LOC)
+ * Depth of inheritance tree
+ * Number of high-level components
 
-# Measuring Dependencies
-* DSMs with Lattix
+---
+# McCabe Cyclomatic Complexity
+* Measure the path complexity of code
+* Hownumber of branches in your code
+* Less useful in OO programs
+* What threshold? 10? 
 
+---
+<img width="200px" src="img/mcc.png">
 
+There are different thresholds proposed for "too complex". Use the complexity measures in a relative way: ask yourself if this file/class/package should be that complex.
+
+---
 # Measuring 'Technical Debt'
+Technical debt is typically measured as 
+<code>∑(# violations of rule x) * (time to fix violation)</code>
 
-# Tools
-* cloc
+Highly subjective: 
+* How long does it take to fix?
+* How much does a developer cost?
+* Do we care about fixing all the violations?
+* What rules are we detecting?
+
+---
+# Tools and Demo
 * Compiler Warnings
 * cloc
+* formal verification
 * SonarQube
 * BetterCodeHub
-* 
+* ... (Ndepend, Lattix, TeamScale, FindBugs)
+
+---
+# Summary
+Numbers matter less than **trends** and **relative performance**. Use metrics to guide your refactoring efforts.
+Generally, the more X you have, the more bugs you have:
+* industry: 15-50 errors / KLOC
+* high quality code: 10-20 errors/KLOC
+* safety-critical: 3/KLOC
+* NASA: <.1 /KLOC (and yet 2 shuttles lost)
+<!-- SIG star rating -->
