@@ -24,8 +24,8 @@ The following schedule is subject to change.
 | Oct 6  | [OO principles Part the Third](https://github.com/SENG330-17/course/blob/master/lectures/9-ooprinciples.md)                                        |   [PlantUML example code](https://github.com/SENG330-17/course/blob/master/lectures/MSG.puml) • [Fowler, DI](https://martinfowler.com/articles/injection.html)      |         (continue SOLID reading)            |
 | **WK5** Oct 10 | OO principles cont. | |
 | Oct 11 |     [Assn2 recap and refactoring exercise](https://github.com/SENG330-17/course/blob/master/lectures/refactoring-explained.md)  |   [C&K metrics definitions](http://people.scs.carleton.ca/~jeanpier/404F13/T2%20-%20About%20Metrics/extra%20stuff/Chidamber%20&%20Kemerer%20object-oriented%20metrics%20suite.pdf)      |                  |
-| Oct 13 | [OO measures and tools](https://github.com/SENG330-17/course/blob/master/lectures/10-measure.md) |      |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3 |
-| **WK 6** Oct 17 |  Design Patterns 1 |    <!-- module, C&C, deployment views-->        |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) •  Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
+| Oct 13 | [OO measures and tools](https://github.com/SENG330-17/course/blob/master/lectures/10-measure.md) |    [SonarSource](https://sonarcloud.io/dashboard?id=org.apache%3Atomcat%3A8.x)  |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3 |
+| **WK 6** Oct 17 |  [Design Patterns 1](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |       |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) •  Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 | Midterm Review                              |           |                  |
 | Oct 20 |    **Midterm, in class**        (up to and incl. Oct 13)                                 |           |   Midterm                |
 | **WK 7** Oct 24 |  Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
@@ -40,7 +40,7 @@ The following schedule is subject to change.
 | **WK 10** Nov 14 | Reading Break                                             |           |                  |
 | Nov 15 | Reading Break                                             |           |                  |
 | Nov 17 |         *Project work standups and Q&A period*                                                 |           |                  |
-| **WK 11** Nov 21 |        Design Paradigms /   Functional and prototype paradigms                                                    |     <!-- Fairbanks -->        |                  |
+| **WK 11** Nov 21 |        Design Paradigms /   Functional and prototype paradigms                                                    |    <!--https://www.voxxed.com/2016/04/gang-four-patterns-functional-light-part-1/--> <!-- Fairbanks -->        |                  |
 | Nov 22 |               Safety critical and other design approaches                                                        |           |                  |
 | Nov 24 |                        Overflow/slack                                   |           |                  |
 | **WK 12** Nov 28 |         Project demos                                                 |           | Project demos due      |
