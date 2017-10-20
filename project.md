@@ -52,13 +52,13 @@ Due in Github by **midnight Nov 10.**
 	- Structural and runtime design structures.
 
 ## 3. Peer design review with another team (15%)
-The design needs to be vetted with other experts. In this milestone you will meet with me, with another team (working on a separate problem). You will present your design (30mins) and critique their design (30 mins).  Attendance is mandatory for the whole group, unless alternative arrangements are made with the instructor in advance. 
+The design needs to be vetted with other experts. In this milestone you will meet with another team (working on a separate problem). You will present your design (25mins) and critique their design (25 mins).  Attendance is mandatory for the whole group, unless alternative arrangements are made with the instructor in advance. Omar and I will be moving around the room moderating.
 
 ### Deadline
-The meeting will be scheduled for the week of Nov 20th. Your wiki page is due **midnight, Nov 24.**.
+The meeting will be scheduled in class during the week of Nov 20th. Your wiki page is due **midnight, Nov 24.**.
 
 ### Deliverables
-1. At least 1 day before the meeting, I will send you the other team's design docs (from Milestone 2). 
+1. At least 1 day before the meeting, send your assigned partner team your design docs (from Milestone 2). 
 2. During the meeting, you will need to ask a set of design critique questions. (We will cover this in class).
 3. In *your* Github wiki, create a wiki page with your team's list of the key risk factors for the other team's approach (e.g., they have not considered storage, their choice of Haskell is at odds with their quest for rapid deployment, etc.). This is not lengthy; you need a list of design problems you have seen (at least 3).
 
