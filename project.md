@@ -14,6 +14,9 @@ Your team gets to choose the application language and frameworks used. The instr
 
 All students are expected to participate equally in discussions, design and development. The instructor will make marking adjustments for individual students where this participation has not occurred; this may result in a failing grade for the project. At the conclusion of the project you will be asked to evaluate your colleagues on the team. Your peer review score will influence what percentage of the project mark you get. 
 
+## Tools
+* Use the [Github invite](https://classroom.github.com/g/q5FaA-UK) to create teams and repositories for your group.
+* Use private Slack channel to communicate.
 
 # Milestones
 ## 1. Requirements breakdown (10%)
