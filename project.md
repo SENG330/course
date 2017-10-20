@@ -1,5 +1,3 @@
-Title: Project Requirements
-
 # Overview
 This is a project that is intended to force you to think about how your software is designed and built. You will apply requirements elicitation, domain-driven design, and coding to build a simple web application.
 
@@ -27,6 +25,7 @@ This is due in Github **midnight Oct 27.** (That is, on Oct 27 we will snapshot 
 ### Deliverables
 1. Github issues on your team Github site.
 2. Github wiki page(s) outlining your expanded version of Assignment 1 use cases, scoping, and assumptions.
+3. Update the [course team wiki page](https://github.com/SENG330-17/course/wiki/Team-Contacts) with team name and contact email (a Gmail etc. email that someone will check). I suggest you don't use your personal email for this as the page is world-readable.
 
 ### Marking Guide	
 - Match between technical approach and user problem
