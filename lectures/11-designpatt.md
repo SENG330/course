@@ -138,3 +138,67 @@ That’s just as easy as accessing a global variable, but we get benefits like l
 * Learn how to read and interpret patterns
 * What is a pattern in one language is a language feature in others
 	* often in dramatically less code!
+
+
+---
+# Patterns - Learning Goals
+Explain why design patterns are useful and some caveats to consider when using design patterns
+
+Clearly and concisely **describe**, give examples of software situations in which you’d use, explain the key benefit of, and drawbacks or special considerations for the following patterns: 
+	
+*  singleton, 
+*  decorator, 
+*  observer, 
+*  abstract factory
+
+---
+# Design Problem: Manage Updates
+![](img/updates.png)
+
+---
+# Remember: 
+In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design.
+
+* A design pattern is a description or template for how to solve a problem
+* Not a finished design
+* Patterns capture design expertise and allow that expertise to be transferred and reused
+* Patterns provide common design vocabulary, improving communication, easing implementation & documentation
+
+---
+# Real World Patterns
+<table colwidth="500px"><tr>
+<td>Problem: prevent sewer gas backflowing into rooms</td>
+<td>Solution: P-trap</td>
+<td><image src="img/p-trap.png"></image></td></tr>
+<tr>
+<td>Problem: crossing highways</td>
+<td>Solution: cloverleaf</td>
+<td><image src="img/clover.png"/></td></tr></table>
+
+---
+# Updates - the Observer Pattern
+**Name**: Observer
+**Intent**: Ensure that, when an object changes state, all its dependents are notified and updated automatically.
+**Participants & Structure**: ![](img/observer.png)
+
+---
+# Observer Updates
+![](img/obs-ex1.png)
+
+---
+# Observer Updates
+![](img/obs-ex2.png)
+
+---
+# Observer Updates
+![](img/obs-ex3.png)
+
+---
+# Examples
+I need the professor to be notified when a student joins his/her class
+
+I want the display to update when the size of a window is changed
+
+I need the schedule view to update when the database is changed
+	
+	Design patterns are reusable!
