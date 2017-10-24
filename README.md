@@ -28,11 +28,11 @@ The following schedule is subject to change.
 | **WK 6** Oct 17 |  [Design Patterns 1](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |       |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) •  Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 | Midterm Review                              |           |                  |
 | Oct 20 |    **Midterm, in class**        (up to and incl. Oct 13)                                 |           |   Midterm                |
-| **WK 7** Oct 24 |  Design Patterns 2       <!-- specific patterns, 3 -->                            |           |                  |
-| Oct 25 |  Design Patterns 3                                        |           |                  |
+| **WK 7** Oct 24 |  Design Patterns 2 |    [Design Pattern ref card](http://www.mcdonaldland.info/2007/11/28/40/)       |                  |
+| Oct 25 |  Design Patterns 3 |    [Head First Design Patterns book (CR)](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666)       |                  |
 | Oct 27 |   *Project team work session and Standups*                        |           |                  |
 | **WK 8** Oct 31 |  Quality Attributes /  Designing for testability       <!-- walk thru tactics -->                                      |           |                  |
-| Nov 1  |  Designing for security                                    |           |                  |
+| Nov 1  |  Designing for security |    | [Eoin Woods on security design](https://speakerdeck.com/eoinwoods/secure-by-design-security-design-principles-for-the-working-architect)|  
 | Nov 3  | Designing for modularity and maintainability |           |      [Modifiability tactics](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=8299)            |
 | **WK9** Nov 7  | Designing for CI and releasability        <!-- from Steph's paper -->                                          |           |           [Facebook CI article](https://code.facebook.com/posts/270314900139291/rapid-release-at-massive-scale)        |
 | Nov 8  | Code reading                                                 |           |                  |
