@@ -29,6 +29,7 @@ The following schedule is subject to change.
 | Oct 18 | Midterm Review                              |           |                  |
 | Oct 20 |    **Midterm, in class**        (up to and incl. Oct 13)                                 |           |   Midterm                |
 | **WK 7** Oct 24 |  [Design Patterns - Abstract Factory](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |    [Design Pattern ref card](http://www.mcdonaldland.info/2007/11/28/40/)       |                  |
+| Oct 25 | [MVC Framework tutorial](https://github.com/SENG330-17/course/blob/master/mvc-tutorial.md) | |
 | Oct 27 |   *Project team work session and Standups*                        |           |                  |
 | **WK 8**  Oct 31 |  [Design Patterns - Decorator](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |    [Head First Design Patterns book (CR)](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666)       |     
 | Nov 1 |  [Quality Attributes /  Designing for testability](https://github.com/SENG330-17/course/blob/master/lectures/12-testability.md) |   [Testability example](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)  <!--https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-04.md-->      |    
