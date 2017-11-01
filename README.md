@@ -46,7 +46,7 @@ The following schedule is subject to change.
 | **WK 12** Nov 28 | Project demos   / no class |           | Project demos due      |
 | Nov 29 | Project demos / no class |           |                  |
 | Dec 1  | Top 3 project presentations; final exam review  |           |                  |
-| Dec 6 2pm (tent.)	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
+| Dec 6 2pm	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
 # Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
