@@ -25,26 +25,25 @@ The following schedule is subject to change.
 | **WK5** Oct 10 | OO principles cont. | |
 | Oct 11 |     [Assn2 recap and refactoring exercise](https://github.com/SENG330-17/course/blob/master/lectures/refactoring-explained.md)  |   [C&K metrics definitions](http://people.scs.carleton.ca/~jeanpier/404F13/T2%20-%20About%20Metrics/extra%20stuff/Chidamber%20&%20Kemerer%20object-oriented%20metrics%20suite.pdf)      |                  |
 | Oct 13 | [OO measures and tools](https://github.com/SENG330-17/course/blob/master/lectures/10-measure.md) |    [SonarSource](https://sonarcloud.io/dashboard?id=org.apache%3Atomcat%3A8.x)  |   [SIG Maintainable Code](https://github.com/SENG330-17/course/blob/master/Real_World_Maintainable_Software_SIG.pdf) chapters 2+3 |
-| **WK 6** Oct 17 |  [Design Patterns 1](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |       |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) •  Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
+| **WK 6** Oct 17 |  [Design Patterns - Observer](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |       |  [Fowler on Patterns](https://martinfowler.com/articles/writingPatterns.html) •  Assignment 2 [(invite)](https://classroom.github.com/a/tsYcxLra) due in Github Oct 16 23:59     |
 | Oct 18 | Midterm Review                              |           |                  |
 | Oct 20 |    **Midterm, in class**        (up to and incl. Oct 13)                                 |           |   Midterm                |
-| **WK 7** Oct 24 |  Design Patterns 2 |    [Design Pattern ref card](http://www.mcdonaldland.info/2007/11/28/40/)       |                  |
-| Oct 25 |  Design Patterns 3 |    [Head First Design Patterns book (CR)](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666)       |                  |
+| **WK 7** Oct 24 |  [Design Patterns - Abstract Factory](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |    [Design Pattern ref card](http://www.mcdonaldland.info/2007/11/28/40/)       |                  |
 | Oct 27 |   *Project team work session and Standups*                        |           |                  |
-| **WK 8** Oct 31 |  Quality Attributes /  Designing for testability       <!-- walk thru tactics -->                                      |           |                  |
-| Nov 1  |  Designing for security |    | [Eoin Woods on security design](https://speakerdeck.com/eoinwoods/secure-by-design-security-design-principles-for-the-working-architect)|  
-| Nov 3  | Designing for modularity and maintainability |           |      [Modifiability tactics](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=8299)            |
-| **WK9** Nov 7  | Designing for CI and releasability        <!-- from Steph's paper -->                                          |           |           [Facebook CI article](https://code.facebook.com/posts/270314900139291/rapid-release-at-massive-scale)        |
-| Nov 8  | Code reading                                                 |           |                  |
+| **WK 8**  Oct 31 |  [Design Patterns - Decorator](https://github.com/SENG330-17/course/blob/master/lectures/11-designpatt.md) |    [Head First Design Patterns book (CR)](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666)       |     
+| Nov 1 |  [Quality Attributes /  Designing for testability](https://github.com/SENG330-17/course/blob/master/lectures/12-testability.md) |   [Testability example](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)  <!--https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-04.md-->      |    
+| Nov 3  | Designing for security |    | [Eoin Woods on security design](https://speakerdeck.com/eoinwoods/secure-by-design-security-design-principles-for-the-working-architect)| 
+| **WK9** Nov 7 | Designing for modularity and maintainability |           |      [Modifiability tactics](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=8299)            |
+|  Nov 8 | Designing for CI and releasability        <!-- from Steph's paper -->                                          |           |           [Facebook CI article](https://code.facebook.com/posts/270314900139291/rapid-release-at-massive-scale)        |
 | Nov 10 |                     *Project work standups and Q&A period*                                        |           |                  |
 | **WK 10** Nov 14 | Reading Break                                             |           |                  |
 | Nov 15 | Reading Break                                             |           |                  |
 | Nov 17 |         *Project work standups and Q&A period*                                                 |           |                  |
-| **WK 11** Nov 21 |        Design Paradigms /   Functional and prototype paradigms                                                    |    <!--https://www.voxxed.com/2016/04/gang-four-patterns-functional-light-part-1/--> <!-- Fairbanks -->        |                  |
-| Nov 22 |               Safety critical and other design approaches                                                        |           |                  |
-| Nov 24 |                        Overflow/slack                                   |           |                  |
-| **WK 12** Nov 28 |         Project demos                                                 |           | Project demos due      |
-| Nov 29 |             Project demos                                              |           |                  |
+| **WK 11** Nov 21 |     Peer Design Reviews in class | | |  
+| Nov 22 |   Design Paradigms /   Functional and prototype paradigms |    <!--https://www.voxxed.com/2016/04/gang-four-patterns-functional-light-part-1/--> <!-- Fairbanks -->         |                       |
+| Nov 24 | Safety critical and other design approaches |           |                  |
+| **WK 12** Nov 28 | Project demos   / no class |           | Project demos due      |
+| Nov 29 | Project demos / no class |           |                  |
 | Dec 1  | Top 3 project presentations; final exam review  |           |                  |
 | Dec 6 2pm (tent.)	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
 
