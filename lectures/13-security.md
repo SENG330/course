@@ -6,7 +6,9 @@
 
 ---
 # Overview/Learning Objectives
-* modific
+* distinguish the reasons for security by design
+* compare two approaches to securing systems
+* enumerate the basic concepts of secure design
 
 ---
 # Security - So What?
