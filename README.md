@@ -41,7 +41,7 @@ The following schedule is subject to change.
 | Nov 15 | Reading Break |           |                  |
 | Nov 17 |         *Project work standups and Q&A period* |           |                  |
 | **WK 11** Nov 21 |     Peer Design Reviews in class | | |  
-| Nov 22 |   Functional design paradigms |  [Mario Fusco Devoxx talk on GoF and FP](https://www.youtube.com/watch?v=lZG74WbnhoE) • [George Fairbanks on functional architecture and reactive](https://www.youtube.com/watch?v=lhI6W65Rrfg)      | [Observer section (2nd half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-2/) & [Decorator (first half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-3/)               |
+| Nov 22 |   Functional design paradigms |  [Mario Fusco Devoxx talk on GoF and FP](https://www.youtube.com/watch?v=lZG74WbnhoE) (Decorator is 16m-24m) • [George Fairbanks on functional architecture and reactive](https://www.youtube.com/watch?v=lhI6W65Rrfg)   • [Scala and GoF patterns](https://pavelfatin.com/design-patterns-in-scala/#decorator)  | [Observer section (2nd half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-2/) & [Decorator (first half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-3/)               |
 | Nov 24 | Design for safety | | [Architecture-led safety analysis](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2016_005_001_484836.pdf) (page 1-14) |
 | **WK 12** Nov 28 | Project demos   / no class |           | Project demos due      |
 | Nov 29 | Project demos / no class |           |                  |
