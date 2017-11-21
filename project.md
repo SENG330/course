@@ -90,14 +90,16 @@ You will meet with me and/or Omar to demonstrate what you came up with for a sol
 
 
 ## 5. BetterCodeHub report and post-mortem 5%
-Complete a retrospective of your project, reflecting on what aspects of the domain model had to change, how your team worked, and how the design and implementation worked. [BetterCodeHub](https://bettercodehub.com) is a code quality tool that you will run on your codebase. Send in the report as well. 
+Complete a retrospective of your project, reflecting on what aspects of the domain model had to change, how your team worked, and how the design and implementation worked. 
+
+[BetterCodeHub](https://bettercodehub.com) is a code quality tool that you will run on your codebase. Reflect on its 10 guidelines for maintainability (component balance, small units, etc) and how well your codebase met the guidelines (or why not). 
 
 ## Deadline
 This is due by **Sunday Dec 10**, i.e., the week after classes end.
 
 ## Deliverables
-* The BetterCodeHub report itself
-* Wiki pages in Github describing your response to the report. What issues did it find that you need to fix were you to do another iteration.
+* (I will look at your report centrally, no need to submit it)
+* Wiki pages in Github describing your response to the report. Of the 10 maintainability aspects it reports on, what issues did it find that you need to fix? Why do you think those were a problem?
 * Wiki page on the retrospective with sections:
     - Group dynamics and communication
     - Requirements: what was missed and what was hard about the translation to issues.
