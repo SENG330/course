@@ -42,11 +42,11 @@ The following schedule is subject to change.
 | Nov 17 |         *Project work standups and Q&A period* |           |                  |
 | **WK 11** Nov 21 |     Peer Design Reviews in class | | |  
 | Nov 22 |   Functional design paradigms |  [Mario Fusco Devoxx talk on GoF and FP](https://www.youtube.com/watch?v=lZG74WbnhoE) (Decorator is 16m-24m) • [George Fairbanks on functional architecture and reactive](https://www.youtube.com/watch?v=lhI6W65Rrfg)   • [Scala and GoF patterns](https://pavelfatin.com/design-patterns-in-scala/#decorator)  | [Observer section (2nd half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-2/) & [Decorator (first half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-3/)               |
-| Nov 24 | Design for safety | | [Architecture-led safety analysis](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2016_005_001_484836.pdf) (page 1-14) |
-| **WK 12** Nov 28 | Project demos   / no class |           | Project demos due      |
-| Nov 29 | Project demos / no class |           |                  |
+| Nov 24 | CES survey, project work | |  |
+| **WK 12** Nov 28 | Project demos  ECS 467 / no class |           | Project demos due      |
+| Nov 29 | Project demos  ECS 467 / no class |           |                  |
 | Dec 1  | Top 3 project presentations; final exam review  |           |                  |
-| Dec 6 2pm	 | Final Exam; do not make travel or other plans until the date is released by Central Scheduling | | |
+| Dec 6 2pm	 | Final Exam | | |
 
 # Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
