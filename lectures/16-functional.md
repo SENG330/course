@@ -40,6 +40,7 @@ Function composition
 * Reasoning about the outcome is easier
 
 > curl http://localhost/numberAfter/5 → [always 6]
+> 
 > curl http://localhost/customer/5/v1 → [always v1 of customer]
 
 vs
@@ -88,8 +89,10 @@ Idempotence = get the same answer regardless of how many times you do it
 
 ### FP and the GoF
 
-* Many of the patterns in the Gang of Four Design Pattern book are idiomatic in FP
-* Let's look at Observer.
+* Many of the patterns in the Gang of Four Design Pattern book are idiomatic in FP. That means there is no need for a design pattern, as the language contains built-in features to handle the same design challenge.
+* Let's look at [Observer](https://github.com/mariofusco/from-gof-to-lambda/blob/master/src/main/java/org/mfusco/fromgoftolambda/examples/observer/ObserverLambda.java) from the Mario Fusco presentation.
+* That example shows that using a `ConcurrentHashMap` and Java8's `Consumer` interface can radically reduce the amount of code required (check out the GoF example in the same repository). 
+* This makes the code easier to read (assuming our coder has a basic knowledge of Java8 and functional programming), and easier to maintain.
 
 -----
 
@@ -102,7 +105,7 @@ Idempotence = get the same answer regardless of how many times you do it
 -----
 
 ### Reactive Programming
-It's all streams.
+It's all streams. We recast our web programming as a series of operations on streams of events and data. For example, to detect double-clicks:
 
 * Rich set of stream operators
     * Transform streams into streams
@@ -128,7 +131,6 @@ It's all streams.
 * Think about startup/warmup latency
 
 (more at https://martinfowler.com/articles/serverless.html)
-
 
 ----
 
