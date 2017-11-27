@@ -41,10 +41,10 @@ The following schedule is subject to change.
 | Nov 15 | Reading Break |           |                  |
 | Nov 17 |         *Project work standups and Q&A period* |           |                  |
 | **WK 11** Nov 21 |     Peer Design Reviews in class | | |  
-| Nov 22 |   Functional design paradigms |  [Mario Fusco Devoxx talk on GoF and FP](https://www.youtube.com/watch?v=lZG74WbnhoE) (Decorator is 16m-24m) • [George Fairbanks on functional architecture and reactive](https://www.youtube.com/watch?v=lhI6W65Rrfg)   • [Scala and GoF patterns](https://pavelfatin.com/design-patterns-in-scala/#decorator)  | [Observer section (2nd half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-2/) & [Decorator (first half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-3/)               |
+| Nov 22 |   [Functional design paradigms](https://github.com/SENG330-17/course/blob/master/lectures/16-functional.md) |  [Mario Fusco Devoxx talk on GoF and FP](https://www.youtube.com/watch?v=lZG74WbnhoE) (Decorator is 16m-24m) • [George Fairbanks on functional architecture and reactive](https://www.youtube.com/watch?v=lhI6W65Rrfg)   • [Scala and GoF patterns](https://pavelfatin.com/design-patterns-in-scala/#decorator)  | [Observer section (2nd half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-2/) & [Decorator (first half)](https://www.voxxed.com/2016/05/gang-four-patterns-functional-light-part-3/)               |
 | Nov 24 | CES survey, project work | |  |
 | **WK 12** Nov 28 | Project demos  ECS 467 / no class |           | Project demos due      |
-| Nov 29 | Project demos  ECS 467 / no class |           |                  |
+| Nov 29 | Project demos ECS 467 / no class |           |                  |
 | Dec 1  | Top 3 project presentations; final exam review  |           |                  |
 | Dec 6 2pm	 | Final Exam | | |
 
