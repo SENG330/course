@@ -45,7 +45,7 @@ The following schedule is subject to change.
 | Nov 24 | CES survey, project work | |  |
 | **WK 12** Nov 28 | Project demos  ECS 467 / no class |           | Project demos due      |
 | Nov 29 | Project demos ECS 467 / no class |           |                  |
-| Dec 1  | Top 3 project presentations; final exam review  |           |                  |
+| Dec 1  | Top 3 project presentations; [final exam review](https://github.com/SENG330-17/course/blob/master/lectures/final-review.pdf)  |           |                  |
 | Dec 6 2pm	 | Final Exam | | |
 
 # Preambular
