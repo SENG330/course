@@ -5,9 +5,15 @@
 
 The following schedule is subject to change.
 
-| Class  | Topics          | Resources | Readings  (do this *before* this class)     |
-| ------ | --------------------------------------------------------- | --------- | ---------------- |
-| **WK 0** Sep 6  |       **No class**.            |            |    Register for [Slack](https://join.slack.com/t/seng330uvic/)    • Do Slack polls on Git/Github    |
+| Class  | Topics   | Resources | Readings  (do this *before* this class)     |
+| ------ | ------------------------------------------ | --------- | ---------------- |
+| **M0** Sep 5  |   | | Register for [Slack](https://join.slack.com/t/seng330uvic/) |
+| Sep 21     | A1 due | | |
+| Oct 5     | Midterm | | |
+| Oct 19     | A2 due | | |
+| Nov 2     | A3 due | | |
+| Nov 13, 14 | Reading break | | |
+| Nov 30     | A4 due | | |
 | Dec ??	 | Final Exam | | |
 
 # Preambular
@@ -31,28 +37,39 @@ Object-oriented design and analysis emerged as a response to structured decompos
 
 After the course, students are able to:
 
-* understand the difference between software programming and software engineering
-* apply object-oriented design and analysis to common software problems and projects
-* work together in teams, with modern(ish) software tools.
+* Name, using the proper terminology: The important first principles, techniques, and tools of object-oriented software design;
+* Describe and explain: The important principles, techniques, and tools of object-oriented software design;
+* Apply: The important principles, techniques, and tools of object-oriented software design to provide effective solutions to realistic design problems;
+* Evaluate: The quality of design solutions
+* Write: well-designed, error-free, and easily understandable software.
+
+## Course Success
+This course is divided into ten main modules, each addressing a major topic in object-oriented software design. Modules are spread over two lectures and involve mandatory reading and practice exercises. To be able to follow the pace of the course, the reading must be done before the module lectures and the exercises must be completed within one week of the end of the second lecture of the module.
+
+It's very hard to get good at anything without practice, and software design is no exception. Practice exercises are organized in terms of the module structure and are available on their individual pages. The exercises are designed to help you learn as effectively as possible: you can do them at your own pace, individually or in a group, repeat what's necessary, seek advice from anyone, and make mistakes and learn from them. For these and other reasons, they would be a poor choice for testing your knowledge of the material, so they are not graded. Instead, your practical skills will be evaluated through assignments.
+
+Software design is a naturally abstract topic that needs to be applied to make any sense. The recipe for success in SENG 330 is to regularly prepare for lectures by doing the required readings in advance, attending the lectures and participating in the design and coding walk-throughs, then completing the related exercises as soon as possible. If you do this you may be pleased to discover that the material will grow on you almost subconsciously. The recipe for failure is to await the midterms and final, then furiously attempt to memorize the book and lecture material. Please opt for success.
 
 ## Deliverables
-The class will use [Github](https://github.com/SENG330-17) and [Slack](https://seng330-f17.slack.com). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
+The class will use [Github](https://github.com/SENG330) and [Slack](https://seng330uvic.slack.com). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
 
 [Slack](https://seng330-f17.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures. 
+
+Grades are distributed via Connex for privacy compliance.
 
 University and department policies on professional conduct and integrity are applicable. Feel free to see me in person, or via UVic email, for personal questions.
 
 ### Assignments
-Two assignments both worth 10% of final mark. Due dates as below.
+Four assignments  worth 12.5% each of final mark (50% total). Due dates as in schedule.
 
 ### Project
 There is no project this semester.
 
 ### Midterm
-Oct ~~17~~ 20th, 15% of final grade.
+Oct 5th, 20% of final grade. Missing midterm makes the final worth 50%.
 
 ### Final
-A final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
+A must-pass final exam worth 30% will be scheduled by the university in exam period. Do not plan to travel until the date is finalized.
 
 ### Resources
 
@@ -60,8 +77,16 @@ A final exam worth 30% will be scheduled by the university in exam period. Do no
 2. [Github help pages](https://help.github.com)
 3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
 
+#### Books
+* [Introduction to Software Design with Java](https://github.com/prmr/SoftwareDesign/). This textbook-style set of notes is intended to be a one-stop-shop for this course. It is based on the years of experience of Martin Robillard, a professor at McGill University. It is, however, a work in progress.
 
-##### Books
+Other material:
+
 * [HeadFirst Design Patterns](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=2040666) -- (on course reserve)
+* Design Pattern Reference: http://java-design-patterns.com/
+* Recommended Textbook: [Object-oriented Design and Patterns](http://www.bookdepository.com/Object-oriented-Design-Patterns-Cay-Horstmann/9780471744870). Now out of print, it may provide some useful insights if you can find it. The programming examples will be a bit dated.
+* Recommended Reference: A Java 8 Programming reference of your choice.
+* Sample Project: [Solitaire](https://github.com/prmr/Solitaire)
+* Diagramming Tool (and Sample Project): [JetUML](http://cs.mcgill.ca/~martin/jetuml/)
 
 
