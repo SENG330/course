@@ -6,7 +6,7 @@
 The following schedule is subject to change.
 
 | Date | Module | Other Notes |
-| --- |---|---|---|
+| ---|---|---|
 |  5 Sep | [M0 - Preparation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-00.md) | Register for [Slack](https://join.slack.com/t/seng330uvic/signup) |
 |  7 Sep | [M1 - Encapsulation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-01.md) | |
 | 11 Sep | [M1 - Encapsulation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-01.md) | |
