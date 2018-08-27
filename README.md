@@ -5,16 +5,46 @@
 
 The following schedule is subject to change.
 
-| Class  | Topics   | Resources | Readings  (do this *before* this class)     |
-| ------ | ------------------------------------------ | --------- | ---------------- |
-| **M0** Sep 5  |   | | Register for [Slack](https://join.slack.com/t/seng330uvic/) |
-| Sep 21     | A1 due | | |
-| Oct 5     | Midterm | | |
-| Oct 19     | A2 due | | |
-| Nov 2     | A3 due | | |
-| Nov 13, 14 | Reading break | | |
-| Nov 30     | A4 due | | |
-| Dec ??	 | Final Exam | | |
+| Date | Module | Other Notes |
+| --- |---|---|---|
+|  5 Sep | [M0 - Preparation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-00.md) | Register for [Slack](https://join.slack.com/t/seng330uvic/signup) |
+|  7 Sep | [M1 - Encapsulation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-01.md) | |
+| 11 Sep | [M1 - Encapsulation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-01.md) | |
+| 12 Sep | [M1 - Encapsulation](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-01.md) | |
+| 14 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) | |
+| 18 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) | |
+| 19 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) | |
+| 21 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) | A1 due |
+| 25 Sep | Guest | |
+| 26 Sep | Eclipse tutorial and debugging | |
+| 28 Sep | Guest | |
+| 2 Oct  | [M3 - Object State](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-03.md) | |
+| 3 Oct  | Review | |
+| 5 Oct  | Midterm | |
+| 9 Oct  | [M3 - Object State](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-03.md) | |
+| 10 Oct | [M4 - Unit Testing](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-04.md)  | |
+| 12 Oct | [M4 - Unit Testing](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-04.md)  | |
+| 16 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | |
+| 17 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | |
+| 19 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | A2 due |
+| 23 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) ||
+| 24 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) ||
+| 26 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) | |
+| 30 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
+| 31 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
+|  2 Nov | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md)  | A3 due |
+|  6 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) | |
+|  7 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) |   |
+|  9 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md)  | |
+| 13 Nov | Reading Break | |
+| 14 Nov | Reading Break | |
+| 16 Nov | Peer help session ||
+| 20 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
+| 21 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) | |
+| 23 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
+| 28 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) ||
+| 30 Nov | Review | A4 due |
+| ?? Dec | Final Exam | *Do not make plans until date announced* | 
 
 # Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
@@ -51,7 +81,7 @@ It's very hard to get good at anything without practice, and software design is 
 Software design is a naturally abstract topic that needs to be applied to make any sense. The recipe for success in SENG 330 is to regularly prepare for lectures by doing the required readings in advance, attending the lectures and participating in the design and coding walk-throughs, then completing the related exercises as soon as possible. If you do this you may be pleased to discover that the material will grow on you almost subconsciously. The recipe for failure is to await the midterms and final, then furiously attempt to memorize the book and lecture material. Please opt for success.
 
 ## Deliverables
-The class will use [Github](https://github.com/SENG330) and [Slack](https://seng330uvic.slack.com). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
+The class will use [Github](https://github.com/SENG330) and [Slack](https://join.slack.com/t/seng330uvic/signup). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
 
 [Slack](https://seng330-f17.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures. 
 
