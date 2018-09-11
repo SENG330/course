@@ -56,7 +56,7 @@ Past versions:
 * this repo, check out tag Fall2017
 
 ## Instructors
-* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours shortly after class Tuesday, or by appt.
+* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours 11:30-12:30 Tuesdays, or by appt.
 * Andreas Koenzen, teaching assistant
 * Karan Tongay, teaching assistant
 
