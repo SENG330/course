@@ -16,8 +16,8 @@ The following schedule is subject to change.
 | 19 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) | |
 | 21 Sep | [M2 - Types and Polymorphism](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-02.md) |  |
 | 25 Sep | Eclipse tutorial and debugging | |
-| 26 Sep |  | A1 due (**new**)|
-| 28 Sep | Guest | |
+| 26 Sep | TBD | A1 due midnight (**new**)|
+| 28 Sep | Guest lecture - Dr. Tzanetakis | |
 | 2 Oct  | [M3 - Object State](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-03.md) | |
 | 3 Oct  | Review | |
 | 5 Oct  | Midterm | |

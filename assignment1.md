@@ -4,12 +4,16 @@ Due: Sep 26, 2018 at midnight in Github.
 
 # Changelog
 
+## 9.18
+- Collections.sort() sorts in ascending order, so return players in that order.
+- new and finalized tests added to InstructorTest. Need `Player.setPoints` and `Team.removePlayer` methods.
+
 ## 9/14
- - JetUML format is .jet, not .mdl
- - JetUML exports images, not PDF
- - clarified instructor test timeline
- - added mark breakdown for code in new section "Marks"
- - added Changelog :)
+- JetUML format is .jet, not .mdl
+- JetUML exports images, not PDF
+- clarified instructor test timeline
+- added mark breakdown for code in new section "Marks"
+- added Changelog :)
 
 # Overview
 For this, and the remaining assignments: 
@@ -47,7 +51,7 @@ Use the template classes from the bootstrap repo.
 - `points` (a point in hockey is a goal or an assist). 
 - `name`.
 
-In addition, add methods to create a Player, and add a `getPoints` and `getName` method`.
+In addition, add methods to create a Player, and add a `getPoints` and `getName` method.
 
 2. Implement the class called Team that will use the `Player` type to maintain a list of players. Use a [generic/parameterized type](https://docs.oracle.com/javase/tutorial/java/generics/types.html) type `List` to hold the players. Teams should store the number of players, and have a name (e.g. Canucks, Penguins ...) 
 
