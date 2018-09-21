@@ -1,1 +1,4 @@
 *.pdf
+*.iml
+.ipynb_checkpoints
+.idea
