@@ -3,7 +3,11 @@
 Due: Oct 24, 2018 at midnight in Github.
 
 # Changelog
-
+## 10/11
+- add client class names
+- remove register from devices
+- update API
+- add more on JSON and Logging
 
 # Overview
 In assignment 1 we built a simple Hockey league model to illustrate the concept of basic OO ideas. In this next assignment, we will build a more complex OO system to simulate an IOT system. 
@@ -50,30 +54,39 @@ To run from Eclipse, use the [Gradle tasks view](http://www.vogella.com/tutorial
 You are asked to implement a design pattern that we have not discussed. I link to the reference from the textbook that explains the pattern. Your job is to implement the pattern in the context of the design problem. 
 
 # Design Problem: IOT System
-Build an IOT system with a [Mediator](http://java-design-patterns.com/patterns/mediator/) that will handle updates from multiple sources and send to multiple recipients in a smart home. You should support these types of IOT devices (nb: these are class names):
+Build an IOT system with a [Mediator](http://java-design-patterns.com/patterns/mediator/) that will handle updates from multiple sources and send to multiple recipients in a smart home. (In fact, this is more like a pub-sub pattern, but the ideas are similar). You should support these types of IOT devices (nb: these are class names):
 - `Camera`
 - `Thermostat`
 - `Lightbulb`
 - `SmartPlug`
 - `Hub`
 
-These devices have the following shared behaviors:
-- `status()` - will send messages about status to the Hub 
-- `register()` - The devices must be registered with the Hub when they are installed, and when they start up. 
+These devices have the following common behaviors:
+- `Status getStatus()` - will send messages about status as requested
+- `UUID getIdentifier()` - returns a `java.util.UUID`, a globally unique ID for an instance of the device.
 
-Each device has its own behavior as well: 
-- `record()` - Camera
-- `setTemp()` - Thermostat
-- `switch()` - Smartplug and Lightbulb (on/off)
+Each device has its own behavior as well. Throw an appropriate exception if an error might occur (e.g. the Camera is full).
+- `record()` - Camera. If recording, stop, if not recording, start
+- `setTemp(Temperature)` - Thermostat. `Temperature` should be a class but keep it simple
+- `switch()` - Smartplug and Lightbulb (on/off). If on, turn off, if off, turn on.
 
 The Hub has the following responsibilities:
-- `log()`: all message traffic should be logged using [`SLF4J`](https://www.slf4j.org/manual.html). Logging should be parameterized between Error, Warn, and Info levels. Logs should print to the screen where configured to do so, and save data to a log file if that option is chosen.
-- `notify()` - notify client subscribers (e.g. Android App or website). The notification must be a message in [JSON](https://github.com/stleary/JSON-java) - a sample is provided in the bootstrap repo.
-- `register()` - handle registration from subscribers (assume security etc is implemented elsewhere). Subscribers can choose which devices to register with. 
+- `log()`: all message traffic should be logged using [`SLF4J`](https://www.slf4j.org/manual.html). Logging should be parameterized between Error, Warn, and Info levels. Logs should print to the screen where configured to do so, and save data to a log file if that option is chosen. I have included SLF4J in the Gradle config, and we will go over this in class.
+- `alert(String message)`: receive an update from a device. 
+- `register()` - handle registration from clients and devices (assume security etc is implemented elsewhere). The Hub will have to maintain a registry of clients and devices.
 - `startup()`-- initialize the system. 
 - `shutdown()` -- safely turn off the system.
 
-Your system should respect the design goals of privacy, security, and modularity. 
+The clients will be notified of new events and get a JSON object. Implement two clients that can select different devices to monitor. Clients share the following method:
+- `notify(org.json.JSONObject pMsg)` - be notified by the Hub of some interesting event. The notification will be a message in [JSON](https://github.com/stleary/JSON-java) - a sample is provided in the bootstrap repo. For example, if a delivery is made to the front door, the `Camera` will `alert()` the `Hub`, and the Hub will notify (all) clients.
+
+Name the clients:
+- `AndroidClient`
+- `WebClient`
+
+Your system should respect the design goals of privacy, security, and modularity. This will be marked as part of the design component.
+
+Note that it is possible to get quite complex with respect to business logic (e.g., should all devices be getting notifications? what do clients do with a notice?). For the purposes of this assignment, we will assume that all clients and devices are treated the same, i.e. receive the same messages.
 
 ## Sequence:
 - Part 1 will be the Hub + devices. 
