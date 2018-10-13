@@ -3,6 +3,12 @@
 Due: Oct 24, 2018 at midnight in Github.
 
 # Changelog
+
+## 10/12
+- switch and lightbulb should use a method called `toggle()` as switch is a reserved word
+- we won't worry about the Checkstyle comment checks. Use comments as appropriate, not as boilerplate. You should still comment!
+- the test case I created is purely to give you the names of the classes. It is not necessarily the format of the constructors. In particular, you will need to pass the Hub reference in when constructing the devices.
+
 ## 10/11
 - add client class names
 - remove register from devices
