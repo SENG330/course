@@ -74,7 +74,7 @@ These devices have the following common behaviors:
 Each device has its own behavior as well. Throw an appropriate exception if an error might occur (e.g. the Camera is full).
 - `record()` - Camera. If recording, stop, if not recording, start
 - `setTemp(Temperature)` - Thermostat. `Temperature` should be a class but keep it simple
-- `switch()` - Smartplug and Lightbulb (on/off). If on, turn off, if off, turn on.
+- ~`switch()`~ `toggle()` - Smartplug and Lightbulb (on/off). If on, turn off, if off, turn on.
 
 The Hub has the following responsibilities:
 - `log()`: all message traffic should be logged using [`SLF4J`](https://www.slf4j.org/manual.html). Logging should be parameterized between Error, Warn, and Info levels. Logs should print to the screen where configured to do so, and save data to a log file if that option is chosen. I have included SLF4J in the Gradle config, and we will go over this in class.
