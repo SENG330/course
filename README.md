@@ -26,9 +26,9 @@ The following schedule is subject to change.
 | 12 Oct | [M4 - Unit Testing](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-04.md)  | |
 | 16 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | |
 | 17 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | |
-| 19 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) | A2 due |
+| 19 Oct | [M5 - Composition](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-05.md) |  |
 | 23 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) ||
-| 24 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) ||
+| 24 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) |A2 due midnight|
 | 26 Oct | [M6 - Inversion of Control](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-06.md) | |
 | 30 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
 | 31 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
