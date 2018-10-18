@@ -4,6 +4,9 @@ Due: Oct 24, 2018 at midnight in Github.
 
 # Changelog
 
+## 10/18
+- added notes on Google and Checkstyle
+
 ## 10/12
 - switch and lightbulb should use a method called `toggle()` as switch is a reserved word
 - we won't worry about the Checkstyle comment checks. Use comments as appropriate, not as boilerplate. You should still comment!
@@ -52,8 +55,8 @@ To run from Eclipse, use the [Gradle tasks view](http://www.vogella.com/tutorial
 ## Style/Design
 40% of the marks, necessarily subjective. We rank your code from 1-5 with 5 being above and beyond the style and design discussion in class. 
 
-- adherence to Google Java style (http://google.github.io/styleguide/javaguide.html). We will use Checkstyle to enforce this.
-- Sound OO design - encapsulation, extensibility, loose coupling, modifiability, readability etc. Consider carefully what other patterns might be useful. However, overuse of patterns is also not good design.
+- adherence to Google Java style (http://google.github.io/styleguide/javaguide.html). We will use Checkstyle to enforce this. **Ignore errors about comments and parameter names**. These are overkill for our purposes. You should still be adding comments as explained below, just not boilerplate for each method/class. Parameter names per Checkstyle conflict with the format (`pParam`) used in the text.
+- The tool [`google-java-format`](https://github.com/google/google-java-format) can be used with Eclipse, IntelliJ and Gradle to auto-format your code (e.g. tabs/spaces).
 - Code comments should be **minimal** and **informative**. Ask yourself if your fellow students would understand what you are up to. Thus, no need to say "sets aName to 5". 
 - 1st/2nd year concepts like efficient algorithms, succinctness, and so on. e.g  if you write the Team.removePlayer() alg in 200 lines, you will lose marks.
 
