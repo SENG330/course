@@ -35,7 +35,7 @@ The following schedule is subject to change.
 |  2 Nov | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md)  |  |
 |  6 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) | |
 |  7 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) |   |
-|  9 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md)  | A3 due (tent.)|
+|  9 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md)  | A3 due |
 | 13 Nov | Reading Break | |
 | 14 Nov | Reading Break | |
 | 16 Nov | Peer help session ||
@@ -44,7 +44,7 @@ The following schedule is subject to change.
 | 23 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
 | 28 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) ||
 | 30 Nov | Review | A4 due |
-| 21 Dec 7pm (2 hrs) | Final Exam | *Do not make plans until date announced* | 
+| 21 Dec 7pm (2 hrs)| Final Exam | *Do not make plans until date announced* | 
 
 # Preambular
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
