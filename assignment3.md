@@ -3,10 +3,11 @@
 Due: Nov 9, 2018 at midnight in Github.
 
 # Changelog
-(check here for updates to spec)
+
+* 10-26: first draft 
 
 # Overview
-In this assignment we will take the IOT example and extend it to be a web-based (alt. Android/Spring) application. You will work in teams of 2 (max). Teams are self-selected. Send your team composition to Andreas.
+In this assignment we will take the IOT example and extend it to be a JavaFX-based (alt. Android/Spring) application. You will work in teams of 2 (max). Teams are self-selected. 
 
 # Learning Objectives
 - how to work in a team, using Git and Travis and Github
@@ -44,20 +45,21 @@ Windows users may want to download the [Cygwin](http://www.cygwin.com) Shell and
 - 1st/2nd year concepts like efficient algorithms, succinctness, and so on. e.g  if you write the Team.removePlayer() alg in 200 lines, you will lose marks.
 
 # Design Problem: IOT System on The Web
-Based on your design from assignment 2 build an application that respects the MVC paradigm/pattern, as shown in class. The baseline deliverable will leverage the JavaFX GUI controls to create a Java application. For a 2.5% course bonus, implement this functionality as a `Spring MVC` app OR an Android app (instead). If you wish to use Android, your app will need to be tested without requiring an Android phone (e.g., tests + emulator). 
+Based on your design from assignment 2 build an application that respects the MVC paradigm/pattern, as shown in class. The baseline deliverable will leverage the JavaFX GUI controls to create a Java application [starter repo](https://github.com/SENG330/assn3-javafx). For a 2.5% course bonus, implement this functionality as a `Spring MVC` app OR an Android app (instead). If you wish to use Android, your app will need to be tested without requiring an Android phone (e.g., tests + emulator). Note that help with these two technologies will be limited.
 - The handout will be a Github Classroom individual repository. Since there are 2 students per team, determine whose repo will be the one to hand in. Message Andreas to have him add the other student to the repository for access. 
 
-## Spec
+## Loose Spec
 - You must implement a "Client" (View) that handles updates from cameras, thermostats etc (see Assignment 2). This client may be either a `WebClient`, `AndroidClient`, or `DesktopClient`.
 - Implement a `Model` that persists the various data streams. I suggest you begin with an in-memory Model (i.e., the data is only available while the app is running, and then discarded), and then work on storage offline. The simplest offline storage is as a serialized (text-file) JSONObject. The assignment 2 `Hub` class is a natural choice to start, but you should think about how much responsibility the Hub will have (e.g., does it store data AND manage registration?).
 - Implement `Controllers`. Controllers allow the Client to request updates, to display status, and to add new Device instances (of the types identified in assignment 2). 
+- New since assignment 2, you should add 2 classes of users: Admin and Basic. Admins can manage devices (add/remove), and manage users (what devices they see). Don't worry about a bullet proof user management component. Plain text passwords are fine. In reality this would be a terrible idea.
 - Your solution must successfully pass the list of [Acceptance/Integration tests](https://martinfowler.com/bliki/GivenWhenThen.html) posted [here](assn3-bdd.md). These take the form of 
     + `Given a functioning camera, When the user clicks on the Client camera control (button, tab, etc), Then they see the data from the Camera`.
 
 # Hints   
 - The goal is not to make this a fully functioning IOT app, e.g., you do not need to implement full motion video streaming, integrate with Raspberry PI, etc. (although that would be a cool directed studies project)
 - Usability is not a marking focus; do not spend too much time on layout and UI hacking. As long as the functionality supports the basic scenarios, you will get the marks. The system should be intuitive enough we can run through the acceptance tests.
-- There is plenty of documentation on Spring Boot/MVC online, as with JavaFX. You can [clone this repo as a Spring starter]().
+- There is plenty of documentation on Spring Boot/MVC online, as with JavaFX. You can [clone this repo as a Spring starter](https://github.com/spring-guides/gs-serving-web-content).
 - Do not use JavaFX frameworks to do the MVC parts. You should work on it with plain old JavaFX. Use of FXML for layout is acceptable. Using TestFX for testing is fine.
 - For Spring, stick with the components in the starter repo. These are `Thymeleaf` for views and Spring Boot for the web server. 
 - If you wish to use others, please see me first.
@@ -83,7 +85,9 @@ Based on your design from assignment 2 build an application that respects the MV
 - this [SO answer](https://stackoverflow.com/questions/36868391/using-javafx-controller-without-fxml/36873768) which is also the starter code.
 - [JavaFX8 API](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
 - [TestFX](https://github.com/TestFX/TestFX) and [TestFX howto](https://medium.com/information-and-technology/test-driven-development-in-javafx-with-testfx-66a84cd561e0)
+- [ScenicView](http://fxexperience.com/scenic-view/) apparently can inspect a JavaFX app and debug controls.
 
 ## Spring MVC
 - [HowTo MVC](https://spring.io/guides/gs/serving-web-content/)
 - let's standardize on 2.0.6.RELEASE for Spring APIs. I *believe* that is Spring 5.
+- for the views, you should use the Chrome dev tools view. 
