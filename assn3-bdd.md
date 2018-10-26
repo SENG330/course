@@ -1,8 +1,10 @@
 # Assignment 3 Acceptance Tests/BDD cases
 
+**Current as of:** Oct 26 2018
+
 Think of this as "pre-condition/test stimulus/post-condition".
 
-# Scenario: Users
+# Scenario: Users and Admin
 1. GIVEN I am starting the app / page
     WHEN I first open the application/page
         THEN I see a user login screen
@@ -21,17 +23,18 @@ Think of this as "pre-condition/test stimulus/post-condition".
 
 1. GIVEN I want to use my Home Automation System as an admin
       WHEN I open the admin interface
-        THEN I can manage devices and 
-# Scenario: Booting Home Automation System (Hub)
+        THEN I can manage devices and users
 
-1
-
+1. GIVEN I want to use my Home Automation System as an admin
+      WHEN I open the admin interface 
+        THEN I can assign device notifications to users (ALL, NONE, some selection)
 
 1. GIVEN I want to boot my Home Automation System
-      WHEN I open the app's admin interface
+      WHEN I log in as an admin AND I open the app's admin interface 
         THEN I need to see a blank screen
         AND the list of Devices found in my home
 
+# Scenario: Booting Home Automation System (Hub)
 2. GIVEN the Home Automation System is functional
       WHEN I open the app admin interface
         THEN I should see the log of the previous activities
