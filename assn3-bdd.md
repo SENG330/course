@@ -4,7 +4,7 @@
 
 Think of this as "pre-condition/test stimulus/post-condition".
 
-# Scenario: Users and Admin
+# Scenario A: Users and Admin
 1. GIVEN I am starting the app / page
     WHEN I first open the application/page
         THEN I see a user login screen
@@ -34,7 +34,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         THEN I need to see a blank screen
         AND the list of Devices found in my home
 
-# Scenario: Booting Home Automation System (Hub)
+# Scenario B: Booting Home Automation System (Hub)
 2. GIVEN the Home Automation System is functional
       WHEN I open the app admin interface
         THEN I should see the log of the previous activities
@@ -65,7 +65,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         AND should safely shutdown the system
         AND notify about the activity on the Client.
 
-# Scenario: User wants to access camera
+# Scenario C: User wants to access camera
 
 1. GIVEN a camera
       WHEN I click "Start" on the Client camera control
@@ -93,7 +93,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         THEN my camera notifies Hub about the activity.
 
 
-# Scenario: User wants to access thermostat
+# Scenario D: User wants to access thermostat
 
 1. GIVEN a thermostat
       WHEN I click "Start" on the Client control
@@ -122,7 +122,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         THEN it should notify hub about this event.
 
 
-# Scenario: User wants to access lightbulb
+# Scenario E: User wants to access lightbulb
 1. GIVEN a non-functional light bulb
       WHEN I click "Toggle" on the client control
         THEN I should see the data that the Light Bulb is turned "Off".
