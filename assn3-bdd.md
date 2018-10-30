@@ -140,7 +140,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         THEN it should turn on and should notify Hub about the activity.
 
 
-Scenario: User wants to access smartplug:
+# Scenario F: User wants to access smartplug
 1. GIVEN a non-functional smartplug
       WHEN I click "Toggle" on the client control
         THEN I should see that the smartplug is "Turned On"
