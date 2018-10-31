@@ -35,21 +35,21 @@ Think of this as "pre-condition/test stimulus/post-condition".
         AND the list of Devices found in my home
 
 # Scenario: Booting Home Automation System (Hub)
-2. GIVEN the Home Automation System is functional
+1. GIVEN the Home Automation System is functional
       WHEN I open the app admin interface
         THEN I should see the log of the previous activities
 
-3. GIVEN the Home Automation System is functional
+2. GIVEN the Home Automation System is functional
       WHEN I add a new device to my system on the Client control
         THEN the Hub should register this new device to the system.
 
-4. GIVEN the Home Automation System is functional
+3. GIVEN the Home Automation System is functional
       WHEN I remove a device from my system on the Client Control
         THEN the Hub should deregister this new device from the system.
 
 4. GIVEN the Home Automation System is functional
-      WHEN I want to administer 
-        THEN the Hub should deregister this new device from the system.
+      WHEN I want to administer my devices
+        THEN the Hub should show the device config screen
 
 5. GIVEN the Home Automation System is functional
       WHEN the devices of the system are functional
