@@ -149,7 +149,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
         THEN I should see that the smartplug is "Turned Off"
 
 3. GIVEN a functional smartplug
-      WHEN I click on "Status" on the client control
-        THEN I should see the current status (On/Off) of the smartplug
+      WHEN I look at the client control
+        THEN I should see the plug's current status (On/Off) of the smartplug
 
 
