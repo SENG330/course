@@ -33,12 +33,12 @@ The following schedule is subject to change.
 | 30 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
 | 31 Oct | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md) |  |
 |  2 Nov | [M6 - M7 - Inheritance](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-07.md)  |  |
-|  6 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) | |
+|  6 Nov | Assignment 3 work session | |
 |  7 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md) |   |
-|  9 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md)  | A3 due |
+|  9 Nov | [M8 - Design Patterns](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-08.md)  | |
 | 13 Nov | Reading Break | |
 | 14 Nov | Reading Break | |
-| 16 Nov | Peer help session ||
+| 16 Nov | Peer help session -  A3 due ||
 | 20 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
 | 21 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) | |
 | 23 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
