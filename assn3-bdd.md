@@ -32,7 +32,7 @@ Think of this as "pre-condition/test stimulus/post-condition".
 1. GIVEN I want to boot my Home Automation System
       WHEN I log in as an admin AND I open the app's admin interface 
         THEN I need to see a blank screen
-        AND the list of Devices found in my home
+        OR the list of Devices found in my home
 
 # Scenario: Booting Home Automation System (Hub)
 1. GIVEN the Home Automation System is functional
@@ -123,13 +123,13 @@ Think of this as "pre-condition/test stimulus/post-condition".
 
 
 # Scenario E: User wants to access lightbulb
-1. GIVEN a non-functional light bulb
+1. GIVEN a  light bulb that is off
       WHEN I click "Toggle" on the client control
-        THEN I should see the data that the Light Bulb is turned "Off".
+        THEN I should see the data that the Light Bulb is turned "On".
 
-2. GIVEN a functional light bulb
+2. GIVEN a  light bulb that is On
       WHEN I click "Toggle" on the client control
-        THEN I should see that the light bulb is turned "On".
+        THEN I should see that the light bulb is turned "Off".
 
 3. GIVEN a functional light bulb
       WHEN there is no one in the room (Camera notifies hub)
