@@ -4,6 +4,19 @@
 
 Think of this as "pre-condition/test stimulus/post-condition".
 
+# Scenario Z: Assignment 4
+1. GIVEN I want to see a Camera device
+    WHEN That Camera has integrated video streaming
+      THEN I can see the video's live feed
+
+<!-- 1. GIVEN a streaming Camera
+    WHEN I want to see historical activity
+      THEN I can see snapshot images displayed from the past hour, taken every 5 minutes.
+ -->
+1. Given I am an administrator
+    WHEN I want to see a device status check
+      THEN the status check thread starts and collects the data without interrupting the UI.
+
 # Scenario A: Users and Admin
 1. GIVEN I am starting the app / page
     WHEN I first open the application/page
