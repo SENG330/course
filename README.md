@@ -42,8 +42,11 @@ The following schedule is subject to change.
 | 20 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
 | 21 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) | |
 | 23 Nov | [M9 - Concurrency](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-09.md) ||
+| 27 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) |
 | 28 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) ||
-| 30 Nov | Review | A4 due |
+| 30 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) | A4 due |
+| 4 Dec | OO and other approaches ||
+| 5 Dec | Review | National Day of Remembrance and Action on Violence Against Women | 
 | 21 Dec 7pm (2 hrs)| Final Exam | *Do not make plans until date announced* | 
 
 # Preambular
