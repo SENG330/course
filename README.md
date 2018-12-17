@@ -46,7 +46,8 @@ The following schedule is subject to change.
 | 28 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) ||
 | 30 Nov | [M10 - Topics in Software Design](https://github.com/prmr/SoftwareDesign/blob/master/modules/Module-10.md) | A4 due |
 | 4 Dec | OO and other approaches ||
-| 5 Dec | Review | National Day of Remembrance and Action on Violence Against Women | 
+| 5 Dec | **Cancelled** | National Day of Remembrance and Action on Violence Against Women | 
+| 17 Dec 10:30am | Study Session in ECS 104 | | 
 | 21 Dec 7pm (2 hrs)| Final Exam | *Do not make plans until date announced* | 
 
 # Preambular
