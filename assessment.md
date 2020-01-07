@@ -1,6 +1,6 @@
 # Self-Assessment Questions
 
-The following questions can be used as a guide to help assess your level of readiness to take SENG330. It is not a perfect instrument, and comes with no guarantee. However, if you are wondering whether you are ready to take the course, this is a good place to start. Once you are done (or have gone as far as you can), check your progress against the [self-evaluation grid](Evaluation.md).
+The following questions can be used as a guide to help assess your level of readiness to take SENG330. It is not a perfect instrument, and comes with no guarantee. However, if you are wondering whether you are ready to take the course, this is a good place to start. Once you are done (or have gone as far as you can), check your progress against the [self-evaluation grid](selfeval.md).
 
 ## Question 1
 
