@@ -13,7 +13,7 @@ The goal for this module is to set up your development environment that will all
 ## To ensure that everything works:
 
 1. In the SoftwareDesignCode project, navigate to the Gradle tab (right side of INtelliJ). Doubleclick `Tasks>Application>Run`.
-2. Now double-click `Verification>Test` task in Gradle. You should see three failing tests.
+2. Now double-click `Verification>Test` task in Gradle. You should see four failing tests.
 3. Click at the bottom-left to highlight the Checkstyle pane. Select "Google Checks".  Checkstyle is a tool to ensure the code we write follows a common format (in this case, set out by Google). 
 
 ## Once everything works as described above, try the following:
