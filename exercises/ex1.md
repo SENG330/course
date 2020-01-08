@@ -20,4 +20,4 @@ The goal for this module is to set up your development environment that will all
 ## Once everything works as described above, try the following:
 
 1. Fix the code to make the Checkstyle warnings go away. Ignore whitespace problems (tabs, number of indented spaces). Install the `google-java-format` plugin to automate the whitespace formatting (using the menu item `Code>Reformat`).
-2. Change line 30 of file `AlternatingLabelProvider.java`  to fix the test.
+2. Change line 31 of file `AlternatingLabelProvider.java`  to fix the test.
