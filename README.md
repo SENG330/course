@@ -9,18 +9,18 @@ The following schedule is subject to change. The Book Chapter link takes you to 
 |---------- | ----------- | ---|----|-----|----|----|----|
 |Encapsulation | M1 - Encapsulation | 1 | Jan 6—10 | M0 - Prep | M1 | M1 | Register for [Slack](https://join.slack.com/t/seng330uvic/signup) |
 |Types and Interfaces | M2 - Types and Interfaces | 2 | Jan 13—17 | M1 | M2 | M2 | Get IntelliJ + Gradle + Github working |
-|Object State | M3 - Object State | 3 | Jan 20—24 | M2  | M2 | M3 |  |
-|Unit Testing | M4 - Unit Testing | 4 | Jan 27—31 | M3 | M3 | M4 | Assn 1 Friday 11:59 |
+|Object State | M4 - Object State | 3 | Jan 20—24 | M2  | M2 | M3 |  |
+|Object State |  | 4 | Jan 27—31 | M3 | M3 | M4 | Assn 1 Friday 11:59 |
 | |  | 5 | Feb 3—7 | M4 | Lab test | Lab test | Lab test 1 |
-| |  | 6 | Feb 10—14 | Review | Midterm | M4 | Midterm  |
+|M5 - Unit Testing |  | 6 | Feb 10—14 | Review | Midterm | M5 | Midterm  |
 | |  | 7 | Feb 17—21 | Reading Week | Reading Week | Reading Week |  |
-|Composition | M5 - Composition | 8 | Feb 24—28 | M5 | M5 | M6 |  |
-|Inheritance | M6 - Inheritance | 9 | Mar 2—6 | M6 | M6 | M7 | Assn 2 Friday 11:59 |
-|Inversion of Control | M7 - Inversion of Control | 10 | Mar 9—13 | M7 | M7 | M8 |  |
-| | M8 - Design Patterns | 11 | Mar 16—20 | M8 | M8 | M8 | Lab test 2 |
-| | M9 - Concurrency | 12 | Mar 23—27 | M9 | M9 | M9 |  |
-|Functional Design | M10 - Functional Design | 13 | Mar 30—3 | M10 | M10 | M10 |  |
-| |  |  | Apr 5—20 | Final Exam - scheduled by University |  |  ||
+|Composition | M6 - Composition | 8 | Feb 24—28 | M5 | M5 | M6 |  |
+|Inheritance | M7 - Inheritance | 9 | Mar 2—6 | M6 | M6 | M7 | Assn 2 Friday 11:59 |
+|Inversion of Control | M8 - Inversion of Control | 10 | Mar 9—13 | M7 | M7 | M7 |  |
+| | M8 | 11 | Mar 16—20 | M8 | lab test | lab test | Lab test 2 |
+| | M9 - Concurrency | 12 | Mar 23—27 | M8 | M8 | M9 |  |
+|Functional Design | M9 - Functional Design | 13 | Mar 30—3 | M9 | M9 | M9 |  |
+| |  |  | Apr 5—20 | Final Exam - tentatively Apr 7 9am |  |  ||
 
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
 
