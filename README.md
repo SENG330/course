@@ -15,7 +15,7 @@ The following schedule is subject to change. The Book Chapter link takes you to 
 |M5 - Unit Testing |  | 6 | Feb 10—14 | Review | Midterm | M5 | Midterm  |
 | |  | 7 | Feb 17—21 | Reading Week | Reading Week | Reading Week |  |
 |Composition | M6 - Composition | 8 | Feb 24—28 | M5 | M5 | M6 |  |
-|Inheritance | M7 - Inheritance | 9 | Mar 2—6 | M6 | M6 | M7 | Assn 2 Sunday 11:59 |
+|Inheritance | M7 - Inheritance | 9 | Mar 2—6 | TravisCI/M6 | M6 | M7 | Assn 2 Sunday 11:59 |
 |Inversion of Control | M8 - Inversion of Control | 10 | Mar 9—13 | M7 | M7 | M7 |  |
 | | M8 | 11 | Mar 16—20 | M8 | lab test | lab test | Lab test 2 |
 | | M9 - Concurrency | 12 | Mar 23—27 | M8 | M8 | M9 |  |
