@@ -3,6 +3,8 @@
 
 ## Schedule and Topics
 
+SEE THE [ONLINE-NOTES](lectures/notes-online.md) FILE FOR UP TO DATE SCHEDULE AND SYLLABUS.
+
 The following schedule is subject to change. The Book Chapter link takes you to the relevant Springer online material. The Module/Topic notes can be found in this repo, under lectures. 
 
 |[Book Chapter](https://link.springer.com/book/10.1007/978-3-030-24094-3#toc) | Module/Topic |  | Week | Day 1 | Day 2 | Day 3 | Due |
