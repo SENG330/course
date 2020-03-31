@@ -3,7 +3,7 @@
 
 ## Schedule and Topics
 
-SEE THE [ONLINE-NOTES](lectures/notes-online.md) FILE FOR UP TO DATE SCHEDULE AND SYLLABUS.
+SEE THE [ONLINE-NOTES](online-notes.md) FILE FOR UP TO DATE SCHEDULE AND SYLLABUS.
 
 The following schedule is subject to change. The Book Chapter link takes you to the relevant Springer online material. The Module/Topic notes can be found in this repo, under lectures. 
 
