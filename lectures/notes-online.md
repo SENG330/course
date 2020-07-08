@@ -19,4 +19,7 @@
 
 ## Mar 17
 
-- Please email or message me if you have concerns about the scehdyuel 
+- Please email or message me if you have concerns about the schedule 
+
+## Mar 18
+
