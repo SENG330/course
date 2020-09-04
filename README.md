@@ -1,6 +1,6 @@
 # Object Oriented Development: SENG 330
 
-See the [HEAT course syllabus](https://heat.csc.uvic.ca/coview/outline/2020/Spring/SENG/330) for all mark weights and course policies, textbooks, etc. The syllabus also contains the important information on course communication and schedules. 
+See the [HEAT course syllabus](https://heat.csc.uvic.ca/coview/outline/2020/Fall/SENG/330) for all mark weights and course policies, textbooks, etc. The syllabus also contains the important information on course communication and schedules. 
 
 Course content will be in the form of videos, hosted on the Brightspace site (https://bright.uvic.ca) and readings from the textbook.  
 
