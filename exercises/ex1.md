@@ -2,7 +2,7 @@
 
 The goal for this module is to set up your development environment that will allow you to complete exercises and demos. **If you cannot get this to work by the 2nd week of class, you should seek help from the TA**.
 
-1. Ensure that you have a working version of IntelliJ - I'll be using 2019.3 - and Java 11. IntelliJ is available in the SENG labs.
+1. Ensure that you have a working version of IntelliJ - I'll be using 2020.2 - and Java 11. IntelliJ is available in via [remote SENG desktop](https://labs.engr.uvic.ca/), but they also have a community edition that is free.
 2. Install the Checkstyle Plug-in. In IntelliJ, `Settings > Plugins > MarketPlace > CheckStyle-IDEA`.
 3. Install the Gradle Plug-in. In IntelliJ, `Settings > Plugins > MarketPlace > Gradle`. You may also want the Github plugin. Git should be installed by default. I will be using PlantUML as a plugin as well. If you are using command line Gradle, work with V7.
 4. Clone the [SoftwareDesignCode](https://github.com/SENG330/SoftwareDesignCode) project. `VCS>Git>Clone`. Import this into IntelliJ as a "Gradle Project".
