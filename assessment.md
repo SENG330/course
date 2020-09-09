@@ -36,6 +36,7 @@ Most frequent: "non" (4 occurrences)
 ```
 
 ## Lab Tests
+COVID NB: we are not doing lab tests this semester. However, this may still be a useful test of your Java skills.
 
 The following questions were used to assess level of programming skills for lab tests, which we did in person. However, the assessments are still worth working through as a test of your basic Java ability. 
 
