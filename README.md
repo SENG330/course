@@ -8,7 +8,7 @@ Course content will be in the form of videos, hosted on the Brightspace site (ht
 
 ## Schedule and Topics
 
-The current schedule is on Brightspace. 
+The current schedule is on Brightspace. Lecture notes - including links to videos and notes on what we discuss Tues/Wed - are available in [course/lectures/](lectures)
 
 *Calendar Entry*: Aspects of object-oriented analysis, design and development. Definition and comparison of object-oriented metrics. Overview of classical functional metrics and their effectiveness in measuring productivity for management or design quality of OO-systems. Verification methods for OO-software and how it differs from functional design testing. Maintenance and reuse issues.
 
