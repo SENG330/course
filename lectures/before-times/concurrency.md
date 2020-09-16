@@ -1,0 +1,124 @@
+# What is Concurrency
+- who has taken CSC464, concurrency?
+- Lea book: Concurrent Programming in Java, 2nd Ed., [Doug Lea](https://www.amazon.com/Concurrent-Programming-Java%C2%99-Principles-Pattern/dp/0201310090)
+- concurrent programming is tricky! For one thing, humans like to think sequentially, not in parallel. For another, debugging concurrency is difficult, since multiple things can change the code.
+- Concurrency is an aspect of the problem domain—your code needs to handle multiple simultaneous (or near simultaneous) events. Parallelism, by contrast, is an aspect of the solution domain—you want to make your program run faster by processing different portions of the problem in parallel. (via https://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
+
+# Concurrency Example
+- sequential example
+- shown in debugger. Here are the threads.
+
+# Threads and Processes
+* Process: self-contained, no **directly** shared memory (share via message passing)
+    - synchronization via message passing
+    - identifier, program counter, memory space
+* Thread: lightweight (cheap) process, shared memory. Easy resource contention problems.
+    - synchronization via shared memory
+    -  identifier, program counter, memory:
+        - local memory, separate for each thread
+        - global memory, shared with other threads
+* Service: the distributed analog to process. E.g. λ or serverless functions in cloud computing.
+
+## Thread mechanics (Java)
+* Debugger example - Particle application
+* `Thread` class created off `main` thread.
+* Pass a function to run in the new thread, as instance of `Runnable`.
+* Sleep the thread instance
+
+## Synchronization
+The biggest challenge with concurrency is avoiding [resource contention](https://www.youtube.com/watch?v=Hh_vLKlz2Mc). This occurs because threads are self-contained conceptually, but not in reality. All threads can access objects in the JVM, and the OS/JVM gives no guarantee as to which thread will 'win'. Nor should you try and force it to do so! As a result, the value of a resource may well change without warning. Thread execution is non-deterministic. There are two problems to be aware of:
+
+1. thread interference: when steps of competing threads overlap. It is possible, given OS scheduling, for Thread A to have its operations lost.
+```
+class Counter {
+    private int c = 0;
+    public void increment() {  c++;  }
+    public void decrement() {  c--;  }
+    public int value() {      return c; }
+}
+```
+
+counter++ compiles into something like
+```
+int tmp = counter;
+counter = tmp + 1;
+```
+
+which is two instructions, and thus subject to (non-deterministic) interleaving. A `race condition` is where the result of the program depends on a particular execution trace, and may change. Hard to debug!
+
+2. memory consistency errors: we want our series of operations to be `linearizable` (or rather, `sequentially consistent`), i.e. operations are atomic and happen in a real-world consistent manner. See [https://jepsen.io/consistency](https://jepsen.io/consistency) for much more on this. In distributed systems a much more important problem becomes network `partition-tolerance`, that is, what happens if we lose a thread/process/server. Partitions are rare in concurrent, single-node settings (like your laptop). 
+
+The main way to prevent concurrency problems is to ensure the following properties hold:
+
+1. only one thread is in a "critical section" (shared resource) at a time
+2. If threads that need access to the critical section, some eventually succeed (no deadlock).
+3. Every thread that tries to enter will eventually succeed (no starvation).
+
+With the `synchronized` keyword in Java, we can force an implicit access lock: the block of code that is synchronized is guaranteed to finish executing before another thread gets access.
+
+Whole method locking (synchronized methods): 
+```
+synchronized T m() {
+  // the critical section
+  // is the whole method
+  // body
+}
+```
+
+Every call to m implicitly: 
+
+1. acquires the lock 
+2. executes m
+3. releases the lock
+
+Block locking (synchronized block):
+```
+synchronized(this) {
+// the critical section 
+    // is the block’s content
+}
+```
+Every execution of the block implicitly:
+
+1. acquires the lock 
+2. executes the block 
+3. releases the lock
+
+Consider the issue of concurrently accessing an ArrayList of devices, which can be modified. 
+
+
+# Dining Philosophers
+- N philosophers around a table (threads). 
+- N chopsticks between them (resources). 
+- Must use 2 nearest chopsticks to eat (critical section). 
+- Pick up one, then the other, not both at once. 
+
+Design a solution that prevents deadlock and starvation. Consider what happens if each person picks up a chopstick to the left. 
+
+# Design Principles
+
+When is concurrency useful?
+
+- **abstraction**: separating different tasks, without worrying about when to execute them (example: download files from two different websites)
+- **responsiveness**: providing a responsive user interface, with different tasks executing independently (example: browse the slides while downloading your email)
+- **performance**: splitting complex tasks in multiple units, and assign each unit to a different processor (example: compute all prime numbers up to 1 billion)
+
+Concurrency OO principles:
+
++ always lock during updates to object fields
++ always lock access of possibly updated object fields
++ never lock invocation of methods on other objects
+
+# Other approaches
+- [Actor model](https://www.brianstorti.com/the-actor-model/) (Erlang/elixir)
+    + actors are like objects that NEVER share memory
+    + mailboxes store/queue incoming messages
+    + [Elixir example](https://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
+- Communicating Sequential Processes
+- Coroutines/Goroutines
+
+# References
+* [Bertram Meyer course](http://se.inf.ethz.ch/old/teaching/2010-S/0050/slides/13_softarch_self_study_threads.pdf)
+* [Carlo Furia's course](http://www.cse.chalmers.se/edu/year/2016/course/TDA383_LP3/exercises/)
+* [Ron Swanson example](http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html)
+* [GoLang impl of Dining Philosophers](https://github.com/thomas11/csp/blob/master/csp.go#L656)
