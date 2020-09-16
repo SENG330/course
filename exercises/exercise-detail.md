@@ -17,7 +17,7 @@ The ADR and object diagram.
 
 ## Exercise 3 
  Building on the work from Ex2, expand your code to show how we can (in memory, not in a database) sort through a list of whale observations, and sort that list. Draw a Class diagram to show the structure of your solution. 
- 
+
 ### Learning Objectives
 - Start working with code and designing while coding. 
 - Learn to draw a basic class diagram.
@@ -29,8 +29,8 @@ The ADR and object diagram.
 * Source code implementing the class diagram. Your source code must contain JUnit tests that show a successful execution of the iterator and strategy patterns.
 
 ## Exercise 4
- 
- 
+
+
 ### Learning Objectives
 - object state, singleton, flyweight, optional types
 - code review
@@ -39,8 +39,8 @@ The ADR and object diagram.
 * 
 
 ## Exercise 5
- 
- 
+
+
 ### Learning Objectives
 - unit testing, meta programming, stubs
 - CI and Travis
@@ -49,8 +49,8 @@ The ADR and object diagram.
 * 
 
 ## Exercise 6
- 
- 
+
+
 ### Learning Objectives
 - decorator/composite/prototype/command
 - GUI programming
@@ -59,8 +59,8 @@ The ADR and object diagram.
 * 
 
 ## Exercise 7
- 
- 
+
+
 ### Learning Objectives
 - template method
 - types and inheritance
@@ -72,20 +72,20 @@ The ADR and object diagram.
 
 
 ## Exercise 8
- 
- 
+
+
 ### Learning Objectives
 - MVC
 - Visitor
-- Inversion of Control with Spring/Guice
+- Inversion of Control with Guice
 
 ### Deliverables
 * 
 
 
 ## Exercise 9
- 
- 
+
+
 ### Learning Objectives
 - functional programming
 - Scala 
@@ -101,7 +101,7 @@ The ADR and object diagram.
  - keep track of movies watched
  - a list of players in hockey
  - the whales from previous assignments.
- 
+
 You must use design techniques we have discussed in the class. Play uses the MVC pattern, and you should dive into its architecture as part of the assignment. 
 
 Steps:
