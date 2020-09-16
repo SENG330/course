@@ -36,11 +36,12 @@ Most frequent: "non" (4 occurrences)
 ```
 
 ## Lab Tests
+COVID NB: we are not doing lab tests this semester. However, this may still be a useful test of your Java skills.
 
 The following questions were used to assess level of programming skills for lab tests, which we did in person. However, the assessments are still worth working through as a test of your basic Java ability. 
 
-The three tasks ask you to modify the code located at
-https://github.com/prmr/COMP303Starter/tree/master/sample1/labtest01
+The three tasks ask you to modify the code located at 
+https://github.com/prmr/COMP303Starter/tree/619de7e0382c3bfbaabb4f594a6dd4223ae89cba/sample1/labtest01 
 You should be able to complete each of the three tasks in about 15 minutes.
 A familiarity with the manipulation of the common data structure in Java (Map, List, Set) can help.
 
