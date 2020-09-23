@@ -1,8 +1,12 @@
 # Exercise Details
+These are an evolving sketch - the full details of each exercise are in the repository you create when accepting the assignment.
+
 ## Exercise 1: Setup
+
 For no marks. Ensure you have Github access, and a Java IDE installed. We will use IntelliJ which has university licence for you. Do the [self-assessment](https://github.com/SENG330/course/blob/master/assessment.md) and [Ex1](https://github.com/SENG330/course/blob/master/exercises/ex1.md). 
 
 ## Exercise 2
+
 In this assignment, the five of you will brainstorm some simple requirements of the information system, and create a basic information hiding design for the back end system. Use the following domain elements: `Whale`, `Observation`, `Reporter`. Think carefully about what should be immutable, what should be hidden, and what basic operations those classes should have. 
 
 Use UML Object diagrams to show how the system should look when it is running. 
@@ -16,7 +20,7 @@ Use UML Object diagrams to show how the system should look when it is running.
 The ADR and object diagram.
 
 ## Exercise 3 
- Building on the work from Ex2, expand your code to show how we can (in memory, not in a database) sort through a list of whale observations, and sort that list. Draw a Class diagram to show the structure of your solution. 
+Building on the work from Ex2, expand your code to show how we can (in memory, not in a database) search through a list of whale observations, and sort that list. Draw a Class diagram to show the structure of your solution. 
 
 ### Learning Objectives
 - Start working with code and designing while coding. 

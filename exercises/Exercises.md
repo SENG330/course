@@ -7,8 +7,11 @@ There are 2 main components:
 **Participation and effort**: how much energy the person puts into the discussion. Do they engage? Demonstrate commitment to the exercises? This is measured by TA assessment and the peer rating form. This is a multiplier of the design mark, ranging from 0 (no effort, did not participate) to 1.05 (did all the work and led the design). Thus, if your *group mark* is 75%, your individual mark can be anywhere from 0% to a max of (1.05*75) = 79%.
 
 **Design Solution**: This is the technical skill of the group. At the end of the exercise each group must hand back the assignment with their design solution, in the form of an Architecture Decision Record.
+
 - marks for depth of insight and novelty (0-5). A 5 is a novel solution that demonstrates breadth of analysis.
+
 - marks for proper use of diagrams and notation. (0-5). 0 for no diagrams when necessary. 5 for the most superlative 
+
 - marks for code correctness and understanding of concepts (0-5)
 
 ## ADRs
