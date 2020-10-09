@@ -34,13 +34,17 @@ Building on the work from Ex2, expand your code to show how we can (in memory, n
 
 ## Exercise 4
 
+In this exercise we will begin to think about what to do with error conditions in our system, and the possible states our system can be in. You will sketch out the user interface for the observation reporting system and the states it can be in. Since these observations are in the field, we need to ensure our observations can be partially recorded and then reconciled later, when the observer returns to a more stable internet connection.
 
 ### Learning Objectives
-- object state, singleton, flyweight, optional types
+
+- object state, singleton, optional types
 - code review
 
 ### Deliverables
-* 
+* The State diagram that represents the states the app can take.
+* The ADR 
+* Code, showing Optionals, 
 
 ## Exercise 5
 
@@ -48,9 +52,10 @@ Building on the work from Ex2, expand your code to show how we can (in memory, n
 ### Learning Objectives
 - unit testing, meta programming, stubs
 - CI and Travis
+- Building a real app - real-world considerations.
 
 ### Deliverables
-* 
+* Think 
 
 ## Exercise 6
 
@@ -104,7 +109,7 @@ Building on the work from Ex2, expand your code to show how we can (in memory, n
  - manage recipes
  - keep track of movies watched
  - a list of players in hockey
- - the whales from previous assignments.
+ - the whale scenarios from previous assignments.
 
 You must use design techniques we have discussed in the class. Play uses the MVC pattern, and you should dive into its architecture as part of the assignment. 
 
