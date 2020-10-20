@@ -75,24 +75,28 @@ In Exercise 5, add external service calls to your application. You will need to 
 * 
 
 ## Exercise 7
+In this exercise you will explore the benefits and limitations of inheritance-flavoured OOP and concurrency in Java.
 
+- Use the Template Method pattern to make the tests pass in the starter code. 
+- Use Java's concurrency APIs (`Thread`, `synchronized`, etc.) to implement access to a shared data structure. 
+- Examine the concurrency approach used in Scala or Go, and write a 1 page markdown file describing the pros and cons of each. 
 
 ### Learning Objectives
-- template method
+- purpose of template method design pattern
 - types and inheritance
-- Java Collections hierarchy
-- concurrency?
+- concurrency and its mechanisms in Java and other languages
 
 ### Deliverables
-* 
-
+* No ADR necessary unless specific design decisions should be explained to the TA.
+* the 1 page (750 words max) compare and contrast file. I've created the skeleton for this file already.
+* source code compiling and passing existing tests.
+* Continue to use Github Actions.
 
 ## Exercise 8
-
+In this exercise we will examine the MVC design pattern in a simple GUI application. You will use Guice to inject tests dynamically.
 
 ### Learning Objectives
 - MVC
-- Visitor
 - Inversion of Control with Guice
 
 ### Deliverables
@@ -100,7 +104,7 @@ In Exercise 5, add external service calls to your application. You will need to 
 
 
 ## Exercise 9
-
+In this exercise you will explore some of Java's functional programming updates (since JDK 8), as well as introduce yourselves to Scala and its approach to the same problems.
 
 ### Learning Objectives
 - functional programming
