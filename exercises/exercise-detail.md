@@ -48,14 +48,21 @@ In this exercise we will begin to think about what to do with error conditions i
 
 ## Exercise 5
 
+In Exercise 5, add external service calls to your application. You will need to use API calls to public data sources, parse the returned JSON,  and display that in your app (printing to console is fine for now). We will also test this using stubs and metaprogramming.
 
 ### Learning Objectives
+
 - unit testing, meta programming, stubs
-- CI and Travis
+- CI and Github Actions
 - Building a real app - real-world considerations.
 
 ### Deliverables
-* Think 
+* Your code should be compiling on Travis with tests auto-run
+* Two tests showing how reflection can change method or field visibility 
+* The ADR discussing how you decided to access and parse the external data, and where that class fits in the design. Be sure to think about service availability!
+* A stub class that substitutes for a weather service lookup
+* Bonus 2 marks for using Guice to inject stubs or real code dynamically, as discussed in class 
+* IntelliJ code coverage report 
 
 ## Exercise 6
 
