@@ -93,6 +93,7 @@ In this exercise you will explore the benefits and limitations of inheritance-fl
 * Continue to use Github Actions.
 
 ## Exercise 8
+
 In this exercise we will examine the MVC design pattern in a simple GUI application. You will use Guice to inject tests dynamically.
 
 ### Learning Objectives
