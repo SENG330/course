@@ -94,14 +94,20 @@ In this exercise you will explore the benefits and limitations of inheritance-fl
 
 ## Exercise 8
 
-In this exercise we will examine the MVC design pattern in a simple GUI application. You will use Guice to inject tests dynamically.
+1. Add Visitor support to this class hierarchy (the 'object model'). 
+	2. A PrintVisitor will print out each element visited. 
+	3. A PointsTotalVisitor will summarize the total points by sport. 
+4. Take the starter JavaFX code and use MVC and Observer concepts to handle state changes. The final code should demonstrate how the number of whales entered is reflected in the whale chart. 
+5. Add at least one FXTest test to show UI testing. Use the sample code in the /test directory.
 
 ### Learning Objectives
-- MVC
-- Inversion of Control with Guice
+- MVC and basic GUI programming.
+- The Visitor Pattern
+- Unit testing of GUI code
 
 ### Deliverables
-* 
+* unit tests of the JavaFX code, showing how the model changes are managed, and one GUI test using TestFX.
+* Implementation of Visitor with 2 visitors, plus tests of same. 
 
 
 ## Exercise 9
